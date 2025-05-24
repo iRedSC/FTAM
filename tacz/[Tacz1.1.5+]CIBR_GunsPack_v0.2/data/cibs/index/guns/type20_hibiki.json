@@ -1,0 +1,9 @@
+{
+  "name": "cibs.gun.type20_hibiki.name",
+  "display": "cibs:type20_hibiki_display",
+  "data": "cibs:type20_hibiki_data",
+  "tooltip": "cibs.gun.type20_hibiki.desc",
+  "type": "rifle",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

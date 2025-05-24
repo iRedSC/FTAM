@@ -1,0 +1,203 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "rotted:flusk_viscera",
+    "blocky_siege:cannon",
+    "blocky_siege:mortar",
+    "blocky_siege:cannon_ball_0",
+    "blocky_siege:keg_of_gunpowder_0",
+    "blocky_siege:fire_bomb_0",
+    "blocky_siege:frost_bomb_0",
+    "blocky_siege:soul_bomb_0",
+    "blocky_siege:giant_cannon_ball",
+    "blocky_siege:barrel_of_gunpowder",
+    "blocky_siege:giant_fire_bomb",
+    "blocky_siege:giant_frost_bomb",
+    "blocky_siege:ballista_stand",
+    "blocky_siege:illager_ballista_golem_stand",
+    "blocky_siege:cannon_stand",
+    "pneumaticcraft:compressed_iron_boots",
+    "pneumaticcraft:compressed_iron_chestplate",
+    "pneumaticcraft:compressed_iron_leggings",
+    "pneumaticcraft:compressed_iron_helmet",
+    "pneumaticcraft:pneumatic_boots",
+    "pneumaticcraft:pneumatic_chestplate",
+    "pneumaticcraft:pneumatic_helmet",
+    "pneumaticcraft:pneumatic_leggings",
+    "pneumaticcraft:gun_ammo",
+    "pneumaticcraft:gun_ammo_ap",
+    "pneumaticcraft:gun_ammo_explosive",
+    "pneumaticcraft:gun_ammo_freezing",
+    "pneumaticcraft:gun_ammo_incendiary",
+    "pneumaticcraft:gun_ammo_weighted",
+    "pneumaticcraft:minigun",
+    "pneumaticcraft:sentry_turret",
+    "pneumaticcraft:reinforced_chest",
+    "pneumaticcraft:smart_chest",
+    "pneumaticcraft:reinforced_chest_kit",
+    "pneumaticcraft:smart_chest_kit",
+    "minecraft:potion",
+    "minecraft:tipped_arrow",
+    "minecraft:totem_of_undying",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:leather_helmet",
+    "minecraft:leather_chestplate",
+    "minecraft:leather_leggings",
+    "minecraft:leather_boots",
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_leggings",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "minecraft:diamond_helmet",
+    "minecraft:diamond_chestplate",
+    "minecraft:diamond_leggings",
+    "minecraft:diamond_boots",
+    "minecraft:golden_helmet",
+    "minecraft:golden_chestplate",
+    "minecraft:golden_leggings",
+    "minecraft:golden_boots",
+    "minecraft:netherite_helmet",
+    "minecraft:netherite_chestplate",
+    "minecraft:netherite_leggings",
+    "minecraft:netherite_boots",
+    "mekanism:personal_chest",
+    "ae2:entropy_manipulator",
+	"industrialforegoing:infinity_drill",
+    "industrialforegoing:infinity_saw",
+    "industrialforegoing:infinity_hammer",
+    "industrialforegoing:infinity_trident",
+    "industrialforegoing:infinity_backpack",
+    "industrialforegoing:infinity_launcher",
+    "industrialforegoing:infinity_nuke",
+    "mekanism:personal_barrel",
+    "ae2:spatial_io_port",
+    "ae2:spatial_anchor",
+    "ae2:spatial_pylon",
+    "ae2:spatial_cell_component_2",
+    "ae2:spatial_cell_component_16",
+    "ae2:spatial_cell_component_128",
+    "ae2:spatial_storage_cell_2",
+    "ae2:spatial_storage_cell_16",
+    "ae2:spatial_storage_cell_128",
+    "constructionwand:code_destruction",
+    "constructionwand:core_angel",
+	"minecraft:elytra",
+	"mekanism:hdpe_elytra",
+	"minecraft:golden_apple",
+	"minecraft:enchanted_golden_apple",
+	"ae2:charged_staff",
+    "pneumaticcraft:collector_drone",
+    "pneumaticcraft:drone",
+    "pneumaticcraft:guard_drone",
+    "pneumaticcraft:harvesting_drone",
+    "pneumaticcraft:logistics_drone",
+    "pneumaticcraft:drone_interface",
+	"minecraft:tnt",
+	"thermal:florb",
+	"thermal:earth_charge",
+	"thermal:ice_charge",
+	"thermal:lightning_charge",
+	"phosphophyllite:debug_tool",
+	"phosphophyllite:phosphophyllite_ore",
+	"phosphophyllite:fluid_white_hole",
+	"phosphophyllite:item_white_hole",
+	"phosphophyllite:power_white_hole",
+	"phosphophyllite:power_black_hole",
+	"phosphophyllite:fluid_black_hole",
+	"phosphophyllite:item_black_hole",
+	"quartz:quartz_test_block",
+	"lrarmor:fbi_helmet",
+	"lrarmor:fbi_chestplate",
+	"lrarmor:fbi_leggings",
+	"lrarmor:fbi_boots",
+	"lrarmor:fbi_armed_helmet",
+	"lrarmor:fbi_armed_chestplate",
+	"lrarmor:fbi_armed_leggings",
+	"lrarmor:fbi_armed_boots",
+	"lrarmor:joker_helmet",
+	"lrarmor:joker_chestplate",
+	"lrarmor:joker_leggings",
+	"lrarmor:joker_boots",
+	"lrarmor:joker_armed_helmet",
+	"lrarmor:joker_armed_chestplate",
+	"lrarmor:atf_helmet",
+	"lrarmor:atf_chestplate",
+	"lrarmor:atf_leggings",
+	"lrarmor:atf_boots",
+	"lrarmor:atf_vest_helmet",
+	"lrarmor:atf_vest_chestplate",
+	"lrarmor:atf_vest_leggings",
+	"lrarmor:atf_vest_boots",
+    "zerocore:debugtool",	
+	"pneumaticcraft:amadron_tablet",
+    "thermal:detonator",	
+	"minecraft:tnt_minecart",
+	"mekanism_lasers:ore_generator",
+	"expatternprovider:ex_drive",
+	"expatternprovider:drive_upgrade",	
+	"expatternprovider:me_packing_tape",	
+	"expatternprovider:infinity_cell",	
+	"expatternprovider:me_packing_tape",	
+	"expatternprovider:fishbig",
+	"thermal:lock"
+	
+	
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "ironchests:lock",
+	"blocky_siege:spewer_stand",
+	"blocky_siege:crusher",
+	"blocky_siege:brazier_off",
+	"blocky_siege:giant_cannon",
+	"blocky_siege:giant_skulk_bomb"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": true
+}

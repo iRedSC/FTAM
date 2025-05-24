@@ -1,0 +1,7 @@
+{
+  "name": "z.attachment.laser_lopro_g.name",
+  "display": "z:laser_lopro_g_display",
+  "data": "z:laser_lopro_g_data",
+  "type": "laser",
+  "sort": 1
+}

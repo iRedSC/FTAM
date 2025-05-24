@@ -1,0 +1,54 @@
+{
+  "model": "cibs:gun/m4_koei_geo",
+  "texture": "cibs:gun/uv/m4_koei",
+  "slot": "cibs:gun/slot/m4_koei",
+  "hud": "cib:gun/hud/m4",
+  "animation": "cib:m4",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "lod": {
+    "model": "cibs:gun/lod/m4_koei",
+    "texture": "cibs:gun/lod/m4_koei"
+  },
+  "ammo": {
+    "tracer_color": "#ff1919"
+  },
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 60,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "cib:flash/m4_koei",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "cib:m4/m4_shoot",
+    "shoot_3p": "cib:m4/m4_shoot_3p",
+    "silence": "cib:m4/m4_silence",
+    "silence_3p": "cib:m4/m4_silence_3p",
+    "draw": "cibs:m4_koei/m4_koei_draw",
+    "put_away": "cibs:m4_koei/m4_koei_put_away",
+    "reload_empty": "cibs:m4_koei/m4_koei_reload_empty",
+    "reload_tactical": "cibs:m4_koei/m4_koei_reload_tactical",
+    "inspect": "cibs:m4_koei/m4_koei_inspect",
+    "inspect_empty": "cibs:m4_koei/m4_koei_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

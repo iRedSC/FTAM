@@ -1,0 +1,7 @@
+{
+  "name": "cibs.gun.awp_hm.name",
+  "display": "cibs:awp_hm_display",
+  "data": "cibs:awp_hm_data",
+  "tooltip": "cibs.gun.awp_hm.desc",
+  "type": "sniper"
+}

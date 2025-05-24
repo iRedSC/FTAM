@@ -1,0 +1,9 @@
+{
+  "name": "cibs.gun.ak24_texas.name",
+  "display": "cibs:ak24_texas_display",
+  "data": "cibs:ak24_texas_data",
+  "type": "rifle",
+  "tooltip": "cibs.gun.ak24_texas.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

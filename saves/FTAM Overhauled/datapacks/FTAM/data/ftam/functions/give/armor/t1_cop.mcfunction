@@ -1,0 +1,11 @@
+# Tier 1 DEA Armed Helmet with Lore
+give @s lrarmor:dea_armed_helmet{display:{Name:'{"text":"Cop Helmet","color":"white","italic":false}',Lore:['{"text":"Tier 1","color":"gray","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:1,Operation:0,UUID:[I;1588114988,1025396518,-1875176029,-201120692],Slot:"head"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.01,Operation:1,UUID:[I;1588114988,1025396518,-1875176029,-201120692],Slot:"head"}]} 1
+
+# Tier 1 DEA Armed Chestplate with Lore
+give @s lrarmor:dea_armed_chestplate{display:{Name:'{"text":"Cop Chestplate","color":"white","italic":false}',Lore:['{"text":"Tier 1","color":"gray","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUID:[I;1588114989,1025396519,-1875176030,-201120693],Slot:"chest"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.01,Operation:1,UUID:[I;1588114989,1025396519,-1875176030,-201120693],Slot:"chest"}]} 1
+
+# Tier 1 DEA Armed Leggings with Lore
+give @s lrarmor:dea_armed_leggings{display:{Name:'{"text":"Cop Leggings","color":"white","italic":false}',Lore:['{"text":"Tier 1","color":"gray","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2,Operation:0,UUID:[I;1588114990,1025396520,-1875176031,-201120694],Slot:"legs"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.01,Operation:1,UUID:[I;1588114990,1025396520,-1875176031,-201120694],Slot:"legs"}]} 1
+
+# Tier 1 DEA Armed Boots with Lore
+give @s lrarmor:dea_armed_boots{display:{Name:'{"text":"Cop Boots","color":"white","italic":false}',Lore:['{"text":"Tier 1","color":"gray","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:1,Operation:0,UUID:[I;1588114991,1025396521,-1875176032,-201120695],Slot:"feet"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.01,Operation:1,UUID:[I;1588114991,1025396521,-1875176032,-201120695],Slot:"feet"}]} 1

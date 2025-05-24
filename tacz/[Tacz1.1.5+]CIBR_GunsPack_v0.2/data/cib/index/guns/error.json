@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.error.name",
+  "display": "cib:error_display",
+  "data": "cib:error_data",
+  "tooltip": "cib.gun.error.desc",
+  "type": "rifle",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

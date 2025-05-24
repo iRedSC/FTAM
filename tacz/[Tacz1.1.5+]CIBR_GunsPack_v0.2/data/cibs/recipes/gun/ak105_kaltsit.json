@@ -1,0 +1,53 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "cib:ak105"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "cib:change"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/black"
+      },
+      "count": 9
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/green"
+      },
+      "count": 8
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/lime"
+      },
+      "count": 15
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/white"
+      },
+      "count": 15
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "cibs:ak105_kaltsit"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

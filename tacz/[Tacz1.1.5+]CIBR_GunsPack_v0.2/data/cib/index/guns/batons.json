@@ -1,0 +1,8 @@
+{
+  "name": "cib.gun.batons.name",
+  "display": "cib:batons_display",
+  "data": "cib:batons_data",
+  "tooltip": "cib.gun.batons.desc",
+  "item_type": "modern_kinetic",
+  "type": "sniper"
+}

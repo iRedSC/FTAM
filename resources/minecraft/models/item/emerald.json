@@ -1,0 +1,10 @@
+{
+"parent": "minecraft:item/generated",
+"textures": {
+"layer0": "minecraft:item/emerald"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5612106}, "model": "minecraft:custom/3drums/drums_diamond"}
+]
+}

@@ -1,0 +1,11 @@
+{
+"parent": "minecraft:item/generated",
+"textures": {
+"layer0": "minecraft:item/barrier"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5600000}, "model": "minecraft:custom/empty_button"},
+{"predicate": {"custom_model_data":5622101}, "model": "minecraft:custom/13deadmanschest/bet"}
+]
+}

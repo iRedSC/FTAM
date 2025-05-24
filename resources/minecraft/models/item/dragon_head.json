@@ -1,0 +1,11 @@
+{
+    "parent": "item/template_skull",
+"textures": {
+"layer0": "minecraft:item/dragon_head"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5611113}, "model": "minecraft:custom/2darts/darts_dragon"},
+{"predicate": {"custom_model_data":5612108}, "model": "minecraft:custom/3drums/drums_dragon"}
+]
+}

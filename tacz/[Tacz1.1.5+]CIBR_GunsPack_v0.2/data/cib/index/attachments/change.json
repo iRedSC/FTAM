@@ -1,0 +1,7 @@
+{
+  "name": "cib.change.name",
+  "display": "cib:change_display",
+  "data": "cib:change_data",
+  "type": "extended_mag",
+  "tooltip": "cib.change.desc"
+}

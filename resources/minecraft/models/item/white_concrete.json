@@ -1,0 +1,10 @@
+{
+"parent": "minecraft:block/white_concrete",
+"textures": {
+"layer0": "minecraft:item/white_concrete"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5600000}, "model": "minecraft:custom/empty_button"}
+]
+}

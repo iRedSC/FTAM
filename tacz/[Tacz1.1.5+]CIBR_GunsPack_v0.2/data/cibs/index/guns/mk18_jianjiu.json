@@ -1,0 +1,9 @@
+{
+  "name": "cibs.gun.mk18_jianjiu.name",
+  "display": "cibs:mk18_jianjiu_display",
+  "data": "cibs:mk18_jianjiu_data",
+  "type": "rifle",
+  "tooltip": "cibs.gun.mk18_jianjiu.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

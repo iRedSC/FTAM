@@ -1,0 +1,8 @@
+{
+  "name": "cib.gun.katana.name",
+  "display": "cib:katana_display",
+  "data": "cib:katana_data",
+  "tooltip": "cib.gun.katana.desc",
+  "item_type": "modern_kinetic",
+  "type": "sniper"
+}

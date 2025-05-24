@@ -1,0 +1,6 @@
+{
+  "name": "cib.attachment.muzzle_silencer_shotgun.name",
+  "display": "cib:muzzle_silencer_shotgun_display",
+  "data": "cib:muzzle_silencer_shotgun_data",
+  "type": "muzzle"
+}

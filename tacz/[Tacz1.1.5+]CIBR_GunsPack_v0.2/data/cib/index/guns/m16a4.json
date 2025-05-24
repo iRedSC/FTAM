@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.m16a4.name",
+  "display": "cib:m16a4_display",
+  "data": "cib:m16a4_data",
+  "type": "rifle",
+  "tooltip": "cib.gun.m16a4.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

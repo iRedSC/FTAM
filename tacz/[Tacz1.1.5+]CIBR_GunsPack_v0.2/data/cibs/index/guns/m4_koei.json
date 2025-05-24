@@ -1,0 +1,9 @@
+{
+  "name": "cibs.gun.m4_koei.name",
+  "display": "cibs:m4_koei_display",
+  "data": "cibs:m4_koei_data",
+  "type": "rifle",
+  "tooltip": "cibs.gun.m4_koei.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

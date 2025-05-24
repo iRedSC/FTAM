@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.usas12.name",
+  "display": "cib:usas12_display",
+  "data": "cib:usas12_data",
+  "type": "shotgun",
+  "item_type": "modern_kinetic",
+  "tooltip": "cib.gun.usas12.desc",
+  "sort": 10
+}

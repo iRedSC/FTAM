@@ -1,0 +1,43 @@
+{
+  "model": "cib:gun/type14_geo",
+  "texture": "cib:gun/uv/type14",
+  "slot": "cib:gun/slot/type14",
+  "hud": "cib:gun/hud/type14",
+  "animation": "cib:type14",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "lod": {
+    "model": "cib:gun/lod/type14",
+    "texture": "cib:gun/lod/type14"
+  },
+  "use_default_animation": "pistol",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "draw": "tacz:m1911/m1911_draw",
+    "put_away": "tacz:m1911/m1911_put_away",
+    "shoot": "cib:type14/type14_shoot",
+    "shoot_3p": "cib:type14/type14_shoot_3p",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

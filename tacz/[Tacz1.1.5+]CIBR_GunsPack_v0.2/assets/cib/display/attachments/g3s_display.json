@@ -1,0 +1,26 @@
+{
+  "slot": "cib:attachment/slot/g3s",
+  "model": "cib:attachment/g3s_geo",
+  "texture": "cib:attachment/uv/g3s",
+  "lod": {
+    "model": "cib:attachment/lod/g3s",
+    "texture": "cib:attachment/lod/g3s"
+  },
+  "zoom": [
+    10.0,
+    10.0
+  ],
+  "views": [
+    1,
+    1
+  ],
+  "views_fov": [
+    20.0,
+    20.0
+  ],
+  "scope": true,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_d",
+    "uninstall": "tacz:attachments/scope_general_d"
+  }
+}

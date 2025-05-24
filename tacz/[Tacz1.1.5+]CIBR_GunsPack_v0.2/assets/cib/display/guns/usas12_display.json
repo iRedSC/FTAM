@@ -1,0 +1,51 @@
+{
+  "model": "cib:gun/usas12_geo",
+  "texture": "cib:gun/uv/usas12",
+  "slot": "cib:gun/slot/usas12",
+  "hud": "cib:gun/hud/usas12",
+  "animation": "cib:usas12",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "lod": {
+    "model": "cib:gun/lod/usas12",
+    "texture": "cib:gun/lod/usas12"
+  },
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 45,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 3
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "cib:usas12/usas12_shoot",
+    "shoot_3p": "cib:usas12/usas12_shoot_3p",
+    "silence": "cib:usas12/usas12_silence",
+    "silence_3p": "cib:usas12/usas12_silence_3p",
+    "draw": "cib:usas12/usas12_draw",
+    "put_away": "cib:usas12/usas12_put_away",
+    "reload_empty": "cib:usas12/usas12_reload_empty",
+    "reload_tactical": "cib:usas12/usas12_reload_tactical",
+    "inspect": "cib:usas12/usas12_inspect",
+    "inspect_empty": "cib:usas12/usas12_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

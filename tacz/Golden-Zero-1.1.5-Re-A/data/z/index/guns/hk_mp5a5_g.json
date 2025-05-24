@@ -1,0 +1,8 @@
+{
+  "name": "z.gun.hk_mp5a5_g.name",
+  "display": "z:hk_mp5a5_g_display",
+  "data": "z:hk_mp5a5_g_data",
+  "tooltip": "z.gun.hk_mp5a5_g.desc",
+  "type": "smg",
+  "sort": 1
+}

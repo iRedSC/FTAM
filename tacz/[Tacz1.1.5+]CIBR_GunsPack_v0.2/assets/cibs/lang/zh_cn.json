@@ -1,0 +1,32 @@
+{
+  "pack.cib.name": "§4CIBR冲锋陷阵:重启 附属包",
+  "pack.cib.desc": "冲锋陷阵:重启 附属包",
+
+
+  "cibs.gun.awp_hm.name": "§3精密国际 AWP 狙击步枪丨绝区零 联名(星见雅)",
+  "cibs.gun.galilace_lesh.name": "§1加利尔 ACE-32 突击步枪丨LESHUAN_20乐拴",
+  "cibs.gun.m4_koei.name": "§4M4 URGI 突击步枪丨笨笨小狼",
+  "cibs.gun.ak103_laffey.name": "§dAK103 突击步枪丨碧蓝航线 联名(拉菲)",
+  "cibs.gun.usps.name": "§fHK-USP 手枪丨不锈钢",
+  "cibs.gun.sig556_shiroko.name": "§b西格绍尔 SIG-556 突击步枪丨蔚蓝档案 联名(砂狼白子)",
+  "cibs.gun.mk18_jianjiu.name": "§1MK18 MOD 1 突击步枪丨JIANJIU建九",
+  "cibs.gun.type20_hibiki.name": "§f丰和工业 20式 突击步枪丨舰队Collection 联名(响)",
+  "cibs.gun.ak24_texas.name": "§cSAKO AK24 突击步枪丨明日方舟 联名(德克萨斯)",
+  "cibs.gun.ak105_kaltsit.name": "§2AK105 短管突击步枪丨明日方舟 联名(凯尔希)",
+
+
+  "cibs.gun.ak105_kaltsit.desc": "§a博士，我出现在这里，说明局势不容乐观。你需要专心......继续完成你的使命。 ———凯尔希",
+  "cibs.gun.ak24_texas.desc": "§f代号德克萨斯，职能包括载具驾驶、货物搬运以及人员安全保障。关于任务的说明，请尽量简单些。 ———德克萨斯",
+  "cibs.gun.type20_hibiki.desc": "我是响，我的活跃不负于不死鸟之名。 ———响",
+  "cibs.gun.mk18_jianjiu.desc": "§9我已经准备好了，是时候该干点正事了 ———JIANJIU建九",
+  "cibs.gun.sig556_shiroko.desc": "§3阿比多斯对策委员会二年级的砂狼白子，请多关照 ———砂狼白子",
+  "cibs.gun.usps.desc": "经典的皮肤",
+  "cibs.gun.ak103_laffey.desc": "§f我是备受期待的本森级驱逐舰拉菲，在三次所罗门海战有着极为活跃的表现，战舰？那是什么？———拉菲",
+  "cibs.gun.m4_koei.desc": "§c笨笨小狼申请出战！",
+  "cibs.gun.awp_hm.desc": "§b秩序，不可破 ———星见雅",
+  "cibs.gun.galilace_lesh.desc": "§9我意已决 ———LESHUAN_20乐拴",
+
+
+  "cibs.cib_printer_skin": "§cCIB:R枪械皮肤工作台",
+  "cibs.cib_printer_skin.desc":"§e冲锋陷阵,重新开始吧！新的起点,新的开始,重启！"
+}

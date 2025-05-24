@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.mk18.name",
+  "display": "cib:mk18_display",
+  "data": "cib:mk18_data",
+  "type": "rifle",
+  "tooltip": "cib.gun.mk18.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

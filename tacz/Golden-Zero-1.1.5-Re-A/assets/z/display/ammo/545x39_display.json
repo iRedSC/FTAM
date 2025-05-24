@@ -1,0 +1,29 @@
+{
+  "model": "z:ammo/545x39",
+  "texture": "z:ammo/uv/545x39",
+  "slot": "z:ammo/slot/545x39",
+  "shell": {
+    "model": "tacz:shell/762x39_shell",
+    "texture": "tacz:shell/762x39_shell"
+  },
+  "tracer_color": "#FF9999",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "ground": [
+        0.75,
+        0.75,
+        0.75
+      ],
+      "fixed": [
+        1.5,
+        1.5,
+        1.5
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "name": "z.gun.urgi_g.name",
+    "display": "z:urgi_g_display",
+    "data": "z:urgi_g_data",
+    "tooltip": "z.gun.urgi_g.desc",
+    "type": "rifle",
+    "sort": 1
+}

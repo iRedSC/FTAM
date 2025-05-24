@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.dprkrpg.name",
+  "display": "cib:dprkrpg_display",
+  "data": "cib:dprkrpg_data",
+  "tooltip": "cib.gun.dprkrpg.desc",
+  "type": "rpg",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

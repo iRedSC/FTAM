@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.type11.name",
+  "display": "cib:type11_display",
+  "data": "cib:type11_data",
+  "type": "mg",
+  "item_type": "modern_kinetic",
+  "tooltip": "cib.gun.type11.desc",
+  "sort": 10
+}

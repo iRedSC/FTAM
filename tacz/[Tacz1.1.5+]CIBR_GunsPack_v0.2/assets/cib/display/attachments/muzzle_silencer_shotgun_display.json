@@ -1,0 +1,13 @@
+{
+  "slot": "cib:attachment/slot/muzzle_silencer_shotgun",
+  "model": "cib:attachment/muzzle_silencer_shotgun_geo",
+  "texture": "cib:attachment/uv/muzzle_silencer_shotgun",
+  "lod": {
+    "model": "cib:attachment/lod/muzzle_silencer_shotgun",
+    "texture": "cib:attachment/lod/muzzle_silencer_shotgun"
+  },
+  "sounds": {
+    "install": "tacz:attachments/muzzle_general",
+    "uninstall": "tacz:attachments/muzzle_general"
+  }
+}

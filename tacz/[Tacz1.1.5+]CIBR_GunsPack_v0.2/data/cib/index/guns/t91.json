@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.t91.name",
+  "display": "cib:t91_display",
+  "data": "cib:t91_data",
+  "type": "rifle",
+  "tooltip": "cib.gun.t91.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

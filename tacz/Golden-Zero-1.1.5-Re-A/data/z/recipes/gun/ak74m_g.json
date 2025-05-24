@@ -1,0 +1,40 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "tacz:ak47"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 35
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "z:ak74m_g",
+    "attachments": {
+      "stock":"tacz:oem_stock_tactical"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

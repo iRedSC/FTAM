@@ -1,0 +1,12 @@
+{
+    "parent": "item/template_skull",
+"textures": {
+"layer0": "minecraft:item/player_head"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5611109}, "model": "minecraft:custom/2darts/darts_zombie"},
+{"predicate": {"custom_model_data":5611111}, "model": "minecraft:custom/2darts/darts_player"},
+{"predicate": {"custom_model_data":5611112}, "model": "minecraft:custom/2darts/darts_skeleton"}
+]
+}

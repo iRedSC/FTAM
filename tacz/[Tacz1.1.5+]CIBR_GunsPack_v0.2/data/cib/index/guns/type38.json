@@ -1,0 +1,7 @@
+{
+  "name": "cib.gun.type38.name",
+  "display": "cib:type38_display",
+  "data": "cib:type38_data",
+  "tooltip": "cib.gun.type38.desc",
+  "type": "sniper"
+}

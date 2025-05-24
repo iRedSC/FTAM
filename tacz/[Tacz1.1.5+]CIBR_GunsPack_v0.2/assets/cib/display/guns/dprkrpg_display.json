@@ -1,0 +1,45 @@
+{
+  "model": "cib:gun/dprkrpg_geo",
+  "texture": "cib:gun/uv/dprkrpg",
+  "hud": "cib:gun/hud/dprkrpg",
+  "slot": "cib:gun/slot/dprkrpg",
+  "animation": "cib:dprkrpg",
+  "use_default_animation": "rifle",
+  "lod": {
+    "model": "cib:gun/lod/dprkrpg",
+    "texture": "cib:gun/lod/dprkrpg"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [1, 1, 1],
+      "ground": [1, 1, 1],
+      "fixed": [1.5, 1.5, 1.5]
+    }
+  },
+  "sounds": {
+    "reload_empty": "cib:dprkrpg/dprkrpg_reload",
+    "inspect": "cib:dprkrpg/dprkrpg_inspect",
+    "inspect_empty": "cib:dprkrpg/dprkrpg_inspect_empty",
+    "draw": "cib:dprkrpg/dprkrpg_draw",
+    "put_away": "cib:dprkrpg/dprkrpg_put_away",
+    "shoot": "cib:dprkrpg/dprkrpg_shoot",
+    "shoot_3p": "cib:dprkrpg/dprkrpg_shoot",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 5],
+    "rotate": [-20, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 4],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

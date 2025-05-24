@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.hk433.name",
+  "display": "cib:hk433_display",
+  "data": "cib:hk433_data",
+  "type": "rifle",
+  "item_type": "modern_kinetic",
+  "tooltip": "cib.gun.hk433.desc",
+  "sort": 10
+}

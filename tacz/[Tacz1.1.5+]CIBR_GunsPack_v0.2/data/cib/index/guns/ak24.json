@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.ak24.name",
+  "display": "cib:ak24_display",
+  "data": "cib:ak24_data",
+  "type": "rifle",
+  "tooltip": "cib.gun.ak24.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

@@ -1,0 +1,10 @@
+{
+"parent": "minecraft:block/dirt",
+"textures": {
+"layer0": "minecraft:item/dirt"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5612107}, "model": "minecraft:custom/3drums/drums_seven"}
+]
+}

@@ -1,0 +1,30 @@
+{
+  "pack.cib.name": "§4교전개시:리부트 팩",
+  "pack.cib.desc": "Charge into Battle:Reboot 애드온 팩", 
+
+  "cibs.gun.awp_hm.name": "§3AWP丨젠레스 존 제로 콜라보(호시미 미야비)",
+  "cibs.gun.galilace_lesh.name": "§1갈릴 ACE-32 돌격 소총丨LESHUAN_20",
+  "cibs.gun.m4_koei.name": "§4M4 URGI 돌격소총丨멍청한 작은 늑대",
+  "cibs.gun.ak103_laffey.name": "§dAK103 돌격소총丨벽람항로 콜라보(라피)",
+  "cibs.gun.usps.name": "§fHK-USP 권총丨스테인리스",
+  "cibs.gun.sig556_shiroko.name": "§bSIG-556 돌격소총丨블루 아카이브 (시로코)",
+  "cibs.gun.mk18_jianjiu.name": "§1MK18 MOD 1 돌격소총丨JIANJIU",
+  "cibs.gun.type20_hibiki.name": "§f풍화 20식 돌격 소총丨Kan Collection (HIBIKI)",
+  "cibs.gun.ak24_texas.name": "§cSAKO AK24 돌격 소총丨명일방주 (텍사스)",
+  "cibs.gun.ak105_kaltsit.name": "§2AK105 단축형 돌격 소총丨명일방주 (켈시)",
+
+
+  "cibs.gun.ak105_kaltsit.desc": "§내가 여기 나타났다는 건, 요컨대 사태가 절박해졌다는 뜻이다. 앞으로도 계속 사명을 다할 수 있도록 정진하길 바라지. ———켈시",
+  "cibs.gun.ak24_texas.desc": "§f텍사스라고 한다. 차량 운전과 물자 수송, 그리고 요인 경호를 맡고 있다. 임무에 관한 지시는 되도록 간결하게 부탁한다. ———텍사스",
+  "cibs.gun.type20_hibiki.desc": "에헤헤~ 드디어 지휘관씨와 만났네~ 나는 히비키! 잘 기억해 두라고! ———HIBIKI",
+  "cibs.gun.mk18_jianjiu.desc": "§9준비 완료. 이제부터가 본방이다. ———JIANJIU",
+  "cibs.gun.sig556_shiroko.desc": "§3아비도스 대책위원회 2학년 스나오오카미 시로코야. 잘 부탁해. ———시로코",
+  "cibs.gun.usps.desc": "클래식 스킨",
+  "cibs.gun.ak103_laffey.desc": "§f벤슨급 구축함의 「곧잘 기대받았었던」 라피. 제3차 솔로몬 해전에서 꽤나 활약했어. 전함? 뭐어?——라피",
+  "cibs.gun.m4_koei.desc": "§c멍청한 작은 늑대가 출전을 신청합니다！",
+  "cibs.gun.awp_hm.desc": "§b질서를 어지럽히지 마 ——— 호시미 미야비",
+  "cibs.gun.galilace_lesh.desc": "§9내 결단은 확고하다———LESHUAN_20(제작자가 본인을 총기에 넣었음)",
+
+  "cibs.cib_printer_skin": "§cCIB:R 총기 스킨 작업대",
+  "cibs.cib_printer_skin.desc": "§e돌격하여 진지를 돌파하고, 다시 출발하여 투쟁을 이어간다"
+}

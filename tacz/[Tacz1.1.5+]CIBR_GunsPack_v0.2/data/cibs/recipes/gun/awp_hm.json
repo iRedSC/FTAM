@@ -1,0 +1,53 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "cib:cs_awp"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "cib:change"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blue_ice"
+      },
+      "count": 6
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/cyan"
+      },
+      "count": 23
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/black"
+      },
+      "count": 12
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/white"
+      },
+      "count": 12
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "cibs:awp_hm"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

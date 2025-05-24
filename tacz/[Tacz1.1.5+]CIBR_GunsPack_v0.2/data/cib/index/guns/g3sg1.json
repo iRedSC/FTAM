@@ -1,0 +1,7 @@
+{
+  "name": "cib.gun.g3sg1.name",
+  "display": "cib:g3sg1_display",
+  "data": "cib:g3sg1_data",
+  "tooltip": "cib.gun.g3sg1.desc",
+  "type": "sniper"
+}

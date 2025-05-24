@@ -1,0 +1,54 @@
+{
+  "model": "cibs:gun/galilace_lesh_geo",
+  "texture": "cibs:gun/uv/galilace_lesh",
+  "slot": "cibs:gun/slot/galilace_lesh",
+  "hud": "cib:gun/hud/galilace32",
+  "animation": "cib:galilace32",
+  "lod": {
+    "model": "cibs:gun/lod/galilace_lesh",
+    "texture": "cibs:gun/lod/galilace_lesh"
+  },
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 45,
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "ammo": {
+    "tracer_color": "#1f80e2"
+  },
+  "muzzle_flash": {
+    "texture": "cib:flash/lesh_flash",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "cib:galilace32/galilace32_shoot",
+    "shoot_3p": "cib:galilace32/galilace32_shoot_3p",
+    "silence": "cib:galilace32/galilace32_silence",
+    "silence_3p": "cib:galilace32/galilace32_silence_3p",
+    "draw": "cib:galilace32/galilace32_draw",
+    "put_away": "cib:galilace32/galilace32_put_away",
+    "reload_empty": "cib:galilace32/galilace32_reload_empty",
+    "reload_tactical": "cib:galilace32/galilace32_reload_tactical",
+    "inspect": "cib:galilace32/galilace32_inspect",
+    "inspect_empty": "cib:galilace32/galilace32_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

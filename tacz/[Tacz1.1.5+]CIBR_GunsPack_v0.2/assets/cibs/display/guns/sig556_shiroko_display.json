@@ -1,0 +1,54 @@
+{
+  "model": "cibs:gun/sig556_shiroko_geo",
+  "texture": "cibs:gun/uv/sig556_shiroko",
+  "slot": "cibs:gun/slot/sig556_shiroko",
+  "hud": "cib:gun/hud/sig556",
+  "animation": "cib:sig556",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "lod": {
+    "model": "cibs:gun/lod/sig556_shiroko",
+    "texture": "cibs:gun/lod/sig556_shiroko"
+  },
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 60,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "cib:flash/awp_hm_flash",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "ammo": {
+    "tracer_color": "#a6e5ea"
+  },
+  "sounds": {
+    "shoot": "cib:sig556/sig556_shoot",
+    "shoot_3p": "cib:sig556/sig556_shoot_3p",
+    "silence": "cib:sig556/sig556_silence",
+    "silence_3p": "cib:sig556/sig556_silence_3p",
+    "draw": "cibs:sig556_shiroko/sig556_shiroko_draw",
+    "put_away": "cibs:sig556_shiroko/sig556_shiroko_put_away",
+    "reload_empty": "cibs:sig556_shiroko/sig556_shiroko_reload_empty",
+    "reload_tactical": "cibs:sig556_shiroko/sig556_shiroko_reload_tactical",
+    "inspect": "cibs:sig556_shiroko/sig556_shiroko_inspect",
+    "inspect_empty": "cibs:sig556_shiroko/sig556_shiroko_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

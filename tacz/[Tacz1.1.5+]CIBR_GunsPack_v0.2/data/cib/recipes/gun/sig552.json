@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 13
+    },
+    {
+      "item": {
+        "tag": "forge:gems/quartz"
+      },
+      "count": 14
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "cib:sig552"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

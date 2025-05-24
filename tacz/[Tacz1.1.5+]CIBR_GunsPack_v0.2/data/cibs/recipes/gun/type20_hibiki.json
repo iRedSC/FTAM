@@ -1,0 +1,47 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "cib:type20"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:attachment",
+        "nbt": {
+          "AttachmentId": "cib:change"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/white"
+      },
+      "count": 34
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/black"
+      },
+      "count": 20
+    },
+    {
+      "item": {
+        "tag": "forge:dyes/red"
+      },
+      "count": 3
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "cibs:type20_hibiki"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

@@ -1,0 +1,49 @@
+{
+  "model": "cib:gun/qsz92_geo",
+  "texture": "cib:gun/uv/qsz92",
+  "slot": "cib:gun/slot/qsz92",
+  "hud": "cib:gun/hud/qsz92",
+  "animation": "cib:qsz92",
+  "player_animator_3rd": "tacz:pistol_default.player_animation",
+  "lod": {
+    "model": "cib:gun/lod/qsz92",
+    "texture": "cib:gun/lod/qsz92"
+  },
+  "use_default_animation": "pistol",
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "cib:qsz92/qsz92_shoot",
+    "shoot_3p": "cib:qsz92/qsz92_shoot_3p",
+    "silence": "cib:qsz92/qsz92_silence",
+    "silence_3p": "cib:qsz92p/qsz92_silence_3p",
+    "draw": "cib:usp/usp_draw",
+    "put_away": "cib:usp/usp_put_away",
+    "reload_empty": "cib:usp/usp_reload_empty",
+    "reload_tactical": "cib:usp/usp_reload_tactical",
+    "inspect": "cib:usp/usp_inspect",
+    "inspect_empty": "cib:usp/usp_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

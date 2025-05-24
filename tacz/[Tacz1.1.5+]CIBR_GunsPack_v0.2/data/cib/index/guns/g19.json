@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.g19.name",
+  "display": "cib:g19_display",
+  "data": "cib:g19_data",
+  "type": "pistol",
+  "tooltip": "cib.gun.g19.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

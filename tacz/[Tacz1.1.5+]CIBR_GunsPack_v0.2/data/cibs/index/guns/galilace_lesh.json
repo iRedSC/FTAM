@@ -1,0 +1,9 @@
+{
+  "name": "cibs.gun.galilace_lesh.name",
+  "display": "cibs:galilace_lesh_display",
+  "data": "cibs:galilace_lesh_data",
+  "tooltip": "cibs.gun.galilace_lesh.desc",
+  "type": "rifle",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

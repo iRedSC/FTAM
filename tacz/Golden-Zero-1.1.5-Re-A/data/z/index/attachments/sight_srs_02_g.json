@@ -1,0 +1,8 @@
+{
+  "hidden": false,
+  "name": "z.attachment.sight_srs_02_g.name",
+  "display": "z:sight_srs_02_g_display",
+  "data": "z:sight_srs_02_g_data",
+  "type": "scope",
+  "sort": 10
+}

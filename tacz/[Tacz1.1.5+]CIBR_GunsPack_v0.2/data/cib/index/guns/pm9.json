@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.pm9.name",
+  "display": "cib:pm9_display",
+  "data": "cib:pm9_data",
+  "type": "smg",
+  "tooltip": "cib.gun.pm9.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

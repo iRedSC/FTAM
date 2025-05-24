@@ -1,0 +1,66 @@
+{
+"parent": "minecraft:item/generated",
+"textures": {
+"layer0": "minecraft:item/paper"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5606101}, "model": "minecraft:custom/50cards/poker_closed_card"},
+
+{"predicate": {"custom_model_data":5606102}, "model": "minecraft:custom/50cards/poker_card_2_buba"},
+{"predicate": {"custom_model_data":5606103}, "model": "minecraft:custom/50cards/poker_card_3_buba"},
+{"predicate": {"custom_model_data":5606104}, "model": "minecraft:custom/50cards/poker_card_4_buba"},
+{"predicate": {"custom_model_data":5606105}, "model": "minecraft:custom/50cards/poker_card_5_buba"},
+{"predicate": {"custom_model_data":5606106}, "model": "minecraft:custom/50cards/poker_card_6_buba"},
+{"predicate": {"custom_model_data":5606107}, "model": "minecraft:custom/50cards/poker_card_7_buba"},
+{"predicate": {"custom_model_data":5606108}, "model": "minecraft:custom/50cards/poker_card_8_buba"},
+{"predicate": {"custom_model_data":5606109}, "model": "minecraft:custom/50cards/poker_card_9_buba"},
+{"predicate": {"custom_model_data":5606110}, "model": "minecraft:custom/50cards/poker_card_10_buba"},
+{"predicate": {"custom_model_data":5606111}, "model": "minecraft:custom/50cards/poker_card_jack_buba"},
+{"predicate": {"custom_model_data":5606112}, "model": "minecraft:custom/50cards/poker_card_queen_buba"},
+{"predicate": {"custom_model_data":5606113}, "model": "minecraft:custom/50cards/poker_card_king_buba"},
+{"predicate": {"custom_model_data":5606114}, "model": "minecraft:custom/50cards/poker_card_ace_buba"},
+
+{"predicate": {"custom_model_data":5607102}, "model": "minecraft:custom/50cards/poker_card_2_chervi"},
+{"predicate": {"custom_model_data":5607103}, "model": "minecraft:custom/50cards/poker_card_3_chervi"},
+{"predicate": {"custom_model_data":5607104}, "model": "minecraft:custom/50cards/poker_card_4_chervi"},
+{"predicate": {"custom_model_data":5607105}, "model": "minecraft:custom/50cards/poker_card_5_chervi"},
+{"predicate": {"custom_model_data":5607106}, "model": "minecraft:custom/50cards/poker_card_6_chervi"},
+{"predicate": {"custom_model_data":5607107}, "model": "minecraft:custom/50cards/poker_card_7_chervi"},
+{"predicate": {"custom_model_data":5607108}, "model": "minecraft:custom/50cards/poker_card_8_chervi"},
+{"predicate": {"custom_model_data":5607109}, "model": "minecraft:custom/50cards/poker_card_9_chervi"},
+{"predicate": {"custom_model_data":5607110}, "model": "minecraft:custom/50cards/poker_card_10_chervi"},
+{"predicate": {"custom_model_data":5607111}, "model": "minecraft:custom/50cards/poker_card_jack_chervi"},
+{"predicate": {"custom_model_data":5607112}, "model": "minecraft:custom/50cards/poker_card_queen_chervi"},
+{"predicate": {"custom_model_data":5607113}, "model": "minecraft:custom/50cards/poker_card_king_chervi"},
+{"predicate": {"custom_model_data":5607114}, "model": "minecraft:custom/50cards/poker_card_ace_chervi"},
+
+{"predicate": {"custom_model_data":5608102}, "model": "minecraft:custom/50cards/poker_card_2_pika"},
+{"predicate": {"custom_model_data":5608103}, "model": "minecraft:custom/50cards/poker_card_3_pika"},
+{"predicate": {"custom_model_data":5608104}, "model": "minecraft:custom/50cards/poker_card_4_pika"},
+{"predicate": {"custom_model_data":5608105}, "model": "minecraft:custom/50cards/poker_card_5_pika"},
+{"predicate": {"custom_model_data":5608106}, "model": "minecraft:custom/50cards/poker_card_6_pika"},
+{"predicate": {"custom_model_data":5608107}, "model": "minecraft:custom/50cards/poker_card_7_pika"},
+{"predicate": {"custom_model_data":5608108}, "model": "minecraft:custom/50cards/poker_card_8_pika"},
+{"predicate": {"custom_model_data":5608109}, "model": "minecraft:custom/50cards/poker_card_9_pika"},
+{"predicate": {"custom_model_data":5608110}, "model": "minecraft:custom/50cards/poker_card_10_pika"},
+{"predicate": {"custom_model_data":5608111}, "model": "minecraft:custom/50cards/poker_card_jack_pika"},
+{"predicate": {"custom_model_data":5608112}, "model": "minecraft:custom/50cards/poker_card_queen_pika"},
+{"predicate": {"custom_model_data":5608113}, "model": "minecraft:custom/50cards/poker_card_king_pika"},
+{"predicate": {"custom_model_data":5608114}, "model": "minecraft:custom/50cards/poker_card_ace_pika"},
+
+{"predicate": {"custom_model_data":5609102}, "model": "minecraft:custom/50cards/poker_card_2_kresti"},
+{"predicate": {"custom_model_data":5609103}, "model": "minecraft:custom/50cards/poker_card_3_kresti"},
+{"predicate": {"custom_model_data":5609104}, "model": "minecraft:custom/50cards/poker_card_4_kresti"},
+{"predicate": {"custom_model_data":5609105}, "model": "minecraft:custom/50cards/poker_card_5_kresti"},
+{"predicate": {"custom_model_data":5609106}, "model": "minecraft:custom/50cards/poker_card_6_kresti"},
+{"predicate": {"custom_model_data":5609107}, "model": "minecraft:custom/50cards/poker_card_7_kresti"},
+{"predicate": {"custom_model_data":5609108}, "model": "minecraft:custom/50cards/poker_card_8_kresti"},
+{"predicate": {"custom_model_data":5609109}, "model": "minecraft:custom/50cards/poker_card_9_kresti"},
+{"predicate": {"custom_model_data":5609110}, "model": "minecraft:custom/50cards/poker_card_10_kresti"},
+{"predicate": {"custom_model_data":5609111}, "model": "minecraft:custom/50cards/poker_card_jack_kresti"},
+{"predicate": {"custom_model_data":5609112}, "model": "minecraft:custom/50cards/poker_card_queen_kresti"},
+{"predicate": {"custom_model_data":5609113}, "model": "minecraft:custom/50cards/poker_card_king_kresti"},
+{"predicate": {"custom_model_data":5609114}, "model": "minecraft:custom/50cards/poker_card_ace_kresti"}
+]
+}

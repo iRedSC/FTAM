@@ -1,0 +1,10 @@
+{
+    "parent": "item/template_skull",
+"textures": {
+"layer0": "minecraft:item/creeper_head"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":5611110}, "model": "minecraft:custom/2darts/darts_creeper"}
+]
+}

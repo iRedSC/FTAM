@@ -1,0 +1,54 @@
+{
+  "model": "cibs:gun/ak105_kaltsit_geo",
+  "texture": "cibs:gun/uv/ak105_kaltsit",
+  "slot": "cibs:gun/slot/ak105_kaltsit",
+  "hud": "cib:gun/hud/ak105",
+  "lod": {
+    "model": "cibs:gun/lod/ak105_kaltsit",
+    "texture": "cibs:gun/lod/ak105_kaltsit"
+  },
+  "ammo": {
+    "tracer_color": "#67df7c"
+  },
+  "animation": "cib:ak105",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 45,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "cib:flash/lvse",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "cib:ak105/ak105_shoot",
+    "shoot_3p": "cib:ak105/ak105_shoot_3p",
+    "silence": "cib:ak105/ak105_silence",
+    "silence_3p": "cib:ak105/ak105_silence_3p",
+    "draw": "cibs:ak105_kaltsit/ak105_kaltsit_draw",
+    "put_away": "cibs:ak105_kaltsit/ak105_kaltsit_put_away",
+    "reload_empty": "cibs:ak105_kaltsit/ak105_kaltsit_reload_empty",
+    "reload_tactical": "cibs:ak105_kaltsit/ak105_kaltsit_reload_tactical",
+    "inspect": "cibs:ak105_kaltsit/ak105_kaltsit_inspect",
+    "inspect_empty": "cibs:ak105_kaltsit/ak105_kaltsit_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

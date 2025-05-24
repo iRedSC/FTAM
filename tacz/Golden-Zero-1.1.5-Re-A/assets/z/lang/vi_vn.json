@@ -1,0 +1,18 @@
+{
+  "pack.z.name": "Golden Louise",
+  "z.attachment.grip_rk0_g.name": "RK-0 Grip Gold",
+  "z.attachment.sight_552_g.name": "Militech 552 HCOG Gold",
+  "z.attachment.sight_exp3_g.name": "EXP3 HCOG Gold",
+  "z.attachment.grip_osovets_black_g.name": "P-2 Grip Gold",
+  "z.attachment.sight_srs_02_g.name": "Trijicon SRS-02 Reflex Sight Gold",
+  "z.gun.hk_mp5a5_g.name": "HK MP5A5 MẠ VÀNG",
+  "z.gun.hk_mp5a5_g.desc": "Gọn gàng, thanh thoát và chết chóc một cách dễ dàng",
+  "z.gun.urgi_g.name": "M4 URG-I MẠ VÀNG",
+  "z.gun.urgi_g.desc": "Sự thanh lịch trong thiết kế, sự chính xác trong hành động",
+  "z.gun.p90_effen.name": "P90 PDW | XF50",
+  "z.gun.p90_effen.desc": "Nếu sự thanh lịch và sự tàn phá có một đứa con chung, thì đây chính là nó",
+  "z.gun.m4a1_g.name": "Golden M4A1 Carbine | 10.3",
+  "z.gun.m4a1_g.desc": "",
+  "z.attachment.sight_uh1_g.name": "UH-1 HCOG Gold",
+  "z.attachment.scope_acog_ta31_g.name": "TA31 2x ACOG"
+}

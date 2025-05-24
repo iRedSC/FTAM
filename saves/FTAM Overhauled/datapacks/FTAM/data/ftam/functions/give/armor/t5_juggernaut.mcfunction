@@ -1,0 +1,11 @@
+# Tier 5 Juggernaut Helmet with Lore
+give @s lrarmor:defender_helmet{display:{Name:'{"text":"Juggernaut Helmet","color":"white","italic":false}',Lore:['{"text":"Tier 5","color":"gold","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;1588115004,1025396534,-1875176045,-201120708],Slot:"head"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.05,Operation:1,UUID:[I;1588115004,1025396534,-1875176045,-201120708],Slot:"head"}]} 1
+
+# Tier 5 Juggernaut Chestplate with Lore
+give @s lrarmor:defender_chestplate{display:{Name:'{"text":"Juggernaut Chestplate","color":"white","italic":false}',Lore:['{"text":"Tier 5","color":"gold","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:9,Operation:0,UUID:[I;1588115005,1025396535,-1875176046,-201120709],Slot:"chest"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.05,Operation:1,UUID:[I;1588115005,1025396535,-1875176046,-201120709],Slot:"chest"}]} 1
+
+# Tier 5 Juggernaut Leggings with Lore
+give @s lrarmor:defender_leggings{display:{Name:'{"text":"Juggernaut Leggings","color":"white","italic":false}',Lore:['{"text":"Tier 5","color":"gold","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUID:[I;1588115006,1025396536,-1875176047,-201120710],Slot:"legs"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.05,Operation:1,UUID:[I;1588115006,1025396536,-1875176047,-201120710],Slot:"legs"}]} 1
+
+# Tier 5 Juggernaut Boots with Lore
+give @s lrarmor:defender_boots{display:{Name:'{"text":"Juggernaut Boots","color":"white","italic":false}',Lore:['{"text":"Tier 5","color":"gold","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUID:[I;1588115007,1025396537,-1875176048,-201120711],Slot:"feet"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.05,Operation:1,UUID:[I;1588115007,1025396537,-1875176048,-201120711],Slot:"feet"}]} 1

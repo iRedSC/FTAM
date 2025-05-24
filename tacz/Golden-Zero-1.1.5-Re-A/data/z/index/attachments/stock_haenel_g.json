@@ -1,0 +1,8 @@
+{
+    "name": "z.attachment.stock_haene_g.name",
+    "tooltip": "z.attachment.stock_haene_g.desc",
+    "display": "z:stock_haenel_g_display",
+    "data": "z:stock_haenel_g_data",
+    "type": "stock",
+    "sort": 1
+  }

@@ -1,0 +1,11 @@
+# Tier 3 Armored Hazmat Helmet with Lore
+give @s lrarmor:armored_chemical_helmet{display:{Name:'{"text":"Armored Hazmat Helmet","color":"white","italic":false}',Lore:['{"text":"Tier 3","color":"aqua","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUID:[I;1588114996,1025396526,-1875176037,-201120700],Slot:"head"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.03,Operation:1,UUID:[I;1588114996,1025396526,-1875176037,-201120700],Slot:"head"}]} 1
+
+# Tier 3 Armored Hazmat Chestplate with Lore
+give @s lrarmor:armored_chemical_chestplate{display:{Name:'{"text":"Armored Hazmat Chestplate","color":"white","italic":false}',Lore:['{"text":"Tier 3","color":"aqua","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:7,Operation:0,UUID:[I;1588114997,1025396527,-1875176038,-201120701],Slot:"chest"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.03,Operation:1,UUID:[I;1588114997,1025396527,-1875176038,-201120701],Slot:"chest"}]} 1
+
+# Tier 3 Armored Hazmat Leggings with Lore
+give @s lrarmor:armored_chemical_leggings{display:{Name:'{"text":"Armored Hazmat Leggings","color":"white","italic":false}',Lore:['{"text":"Tier 3","color":"aqua","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:6,Operation:0,UUID:[I;1588114998,1025396528,-1875176039,-201120702],Slot:"legs"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.03,Operation:1,UUID:[I;1588114998,1025396528,-1875176039,-201120702],Slot:"legs"}]} 1
+
+# Tier 3 Armored Hazmat Boots with Lore
+give @s lrarmor:armored_chemical_boots{display:{Name:'{"text":"Armored Hazmat Boots","color":"white","italic":false}',Lore:['{"text":"Tier 3","color":"aqua","italic":false}']},HideFlags:32,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUID:[I;1588114999,1025396529,-1875176040,-201120703],Slot:"feet"}, {AttributeName:"tacz:tacz.bullet_resistance",Name:"tacz:tacz.bullet_resistance",Amount:0.03,Operation:1,UUID:[I;1588114999,1025396529,-1875176040,-201120703],Slot:"feet"}]} 1

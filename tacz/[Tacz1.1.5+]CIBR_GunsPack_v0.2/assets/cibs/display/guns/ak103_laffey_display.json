@@ -1,0 +1,54 @@
+{
+  "model": "cibs:gun/ak103_laffey_geo",
+  "texture": "cibs:gun/uv/ak103_laffey",
+  "slot": "cibs:gun/slot/ak103_laffey",
+  "hud": "cib:gun/hud/ak103",
+  "lod": {
+    "model": "cibs:gun/lod/ak103_laffey",
+    "texture": "cibs:gun/lod/ak103_laffey"
+  },
+  "ammo": {
+    "tracer_color": "#ffa7da"
+  },
+  "animation": "cib:ak103",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 45,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "cib:flash/ak103_laffey",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "cib:ak103/ak103_shoot",
+    "shoot_3p": "cib:ak103/ak103_shoot_3p",
+    "silence": "cib:ak103/ak103_silence",
+    "silence_3p": "cib:ak103/ak103_silence_3p",
+    "draw": "cibs:ak103_laffey/ak103_laffey_draw",
+    "put_away": "cibs:ak103_laffey/ak103_laffey_put_away",
+    "reload_empty": "cibs:ak103_laffey/ak103_laffey_reload_empty",
+    "reload_tactical": "cibs:ak103_laffey/ak103_laffey_reload_tactical",
+    "inspect": "cibs:ak103_laffey/ak103_laffey_inspect",
+    "inspect_empty": "cibs:ak103_laffey/ak103_laffey_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

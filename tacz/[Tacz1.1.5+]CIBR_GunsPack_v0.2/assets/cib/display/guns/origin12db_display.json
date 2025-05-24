@@ -1,0 +1,75 @@
+{
+  "model": "cib:gun/origin12db_geo",
+  "texture": "cib:gun/uv/origin12db",
+  "slot": "cib:gun/slot/origin12db",
+  "hud": "cib:gun/hud/origin12db",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "lod": {
+    "model": "cib:gun/lod/origin12db",
+    "texture": "cib:gun/lod/origin12db"
+  },
+  "animation": "cib:origin12db",
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.5,
+  "zoom_model_fov": 45,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "tacz:flash/common_muzzle_flash",
+    "scale": 3
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  // 子弹相关渲染参数。ammo display 里也有，但是会被这里的参数覆盖掉
+  "ammo": {
+    // 曳光弹颜色，没有则为 #FFFFFF，没有此字段时，会调用 ammo 的相关字段
+    // 严格遵循 RGB 颜色代码
+    "tracer_color": "#ff5b2b",
+    // 粒子效果，部分参数和原版指令完全一致，具体可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E5%91%BD%E4%BB%A4/particle
+    // 没有此字段时，会调用 ammo 的相关字段
+    "particle": {
+      //      // 名称，具体可选粒子可参考 wiki：https://minecraft.fandom.com/zh/wiki/%E7%B2%92%E5%AD%90
+      "name": "flame",
+      //      // 生成的区域，默认为 0 0 0
+      "delta": [
+        0,
+        0,
+        0
+      ],
+      //      // 速度，默认为0，必须至少为 0
+      "speed": 0,
+      //      // 粒子存在时间，单位 tick，默认为 20 tick
+      "life_time": 20,
+      //      // 粒子数量，当子弹速度过快时，可以增大此数量，能够填满子弹路径的空隙
+      "count": 5
+    }
+  },
+  "sounds": {
+    "shoot": "cib:origin12/origin12_shoot",
+    "shoot_3p": "cib:origin12/origin12_shoot_3p",
+    "silence": "cib:origin12/origin12_silence",
+    "silence_3p": "cib:origin12/origin12_silence_3p",
+    "draw": "cib:origin12/origin12_draw",
+    "put_away": "cib:origin12/origin12_put_away",
+    "reload_empty": "cib:origin12/origin12_reload_empty",
+    "reload_tactical": "cib:origin12/origin12_reload_tactical",
+    "inspect": "cib:origin12/origin12_inspect",
+    "inspect_empty": "cib:origin12/origin12_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

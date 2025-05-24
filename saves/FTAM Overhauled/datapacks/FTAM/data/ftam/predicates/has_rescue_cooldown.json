@@ -1,0 +1,37 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:inverted",
+            "term": {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "effects": {
+                        "lrarmor:rescue_cooldown": {}
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "head": {
+                        "items": ["lrarmor:medical_helmet"]
+                    },
+                    "chest": {
+                        "items": ["lrarmor:medical_chestplate"]
+                    },
+                    "legs": {
+                        "items": ["lrarmor:medical_leggings"]
+                    },
+                    "feet": {
+                        "items": ["lrarmor:medical_boots"]
+                    }
+                }
+            }
+        }
+    ]
+}

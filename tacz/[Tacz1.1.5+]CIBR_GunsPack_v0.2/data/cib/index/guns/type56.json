@@ -1,0 +1,9 @@
+{
+  "name": "cib.gun.type56.name",
+  "display": "cib:type56_display",
+  "data": "cib:type56_data",
+  "tooltip": "cib.gun.type56.desc",
+  "type": "rifle",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

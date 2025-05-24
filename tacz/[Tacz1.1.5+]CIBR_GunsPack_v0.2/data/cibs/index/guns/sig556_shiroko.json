@@ -1,0 +1,9 @@
+{
+  "name": "cibs.gun.sig556_shiroko.name",
+  "display": "cibs:sig556_shiroko_display",
+  "data": "cibs:sig556_shiroko_data",
+  "type": "rifle",
+  "tooltip": "cibs.gun.sig556_shiroko.desc",
+  "item_type": "modern_kinetic",
+  "sort": 10
+}

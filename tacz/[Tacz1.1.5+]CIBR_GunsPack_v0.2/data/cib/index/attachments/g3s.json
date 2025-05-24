@@ -1,0 +1,7 @@
+{
+  "name": "cib.g3s.name",
+  "display": "cib:g3s_display",
+  "data": "cib:g3s_data",
+  "hidden": true,
+  "type": "scope"
+}

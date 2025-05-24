@@ -1,0 +1,27 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 10
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/iron"
+      },
+      "count": 22
+    },
+    {
+      "item": {
+        "tag": "forge:leather"
+      },
+      "count": 5
+    }
+  ],
+  "result": {
+    "type": "attachment",
+    "id": "z:stock_haenel_g"
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

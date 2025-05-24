@@ -1,0 +1,28 @@
+{
+"textures": {
+    "texture": "custom/11rockpaperscissors/gui1"
+},
+"elements": [ 
+{
+    "from": [ -16, -16, 0 ],
+    "to": [ 32, 32, 0 ],
+    "faces": {
+        "north": {"texture": "#texture" },
+        "south": {"uv": [0, 0, 16, 16], "texture": "#texture" }
+    }
+}
+],
+"gui_light": "front",
+"display": {
+    "firstperson_lefthand": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 0, 0 ],
+        "scale": [ 0, 0, 0 ]
+    },
+    "gui": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ -72, 13.6, -10 ],
+        "scale": [ 3.66, 2.76, 2]
+    }
+}
+}

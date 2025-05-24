@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "item": {
+        "type": "forge:partial_nbt",
+        "item": "tacz:modern_kinetic_gun",
+        "nbt": {
+          "GunId": "tacz:m4a1"
+        }
+      },
+      "count": 1
+    },
+    {
+      "item": {
+        "tag": "forge:ingots/gold"
+      },
+      "count": 30
+    },
+    {
+      "item": {
+        "tag": "forge:gems/diamond"
+      },
+      "count": 2
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "z:m4a1_g",
+    "attachments": {
+      "stock":"z:"
+    }
+  },
+  "type": "tacz:gun_smith_table_crafting"
+}

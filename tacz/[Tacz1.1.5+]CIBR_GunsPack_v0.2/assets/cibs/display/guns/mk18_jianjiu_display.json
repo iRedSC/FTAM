@@ -1,0 +1,54 @@
+{
+  "model": "cibs:gun/mk18_jianjiu_geo",
+  "texture": "cibs:gun/uv/mk18_jianjiu",
+  "slot": "cibs:gun/slot/mk18_jianjiu",
+  "hud": "cib:gun/hud/mk18",
+  "animation": "cib:m4",
+  "player_animator_3rd": "tacz:rifle_default.player_animation",
+  "lod": {
+    "model": "cibs:gun/lod/mk18_jianjiu",
+    "texture": "cibs:gun/lod/mk18_jianjiu"
+  },
+  "use_default_animation": "rifle",
+  "iron_zoom": 1.33,
+  "zoom_model_fov": 60,
+  "third_person_animation": "default",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.0, 1.0, 1.0]
+    }
+  },
+  "ammo": {
+    "tracer_color": "#1f80e2"
+  },
+  "muzzle_flash": {
+    "texture": "cib:flash/lesh_flash",
+    "scale": 1
+  },
+  "shell": {
+    "initial_velocity": [5, 2, 1],
+    "random_velocity": [1, 1, 0.25],
+    "acceleration": [0.0, -10, 0.0],
+    "angular_velocity": [360, -1200, 90],
+    "living_time": 1.0
+  },
+  "sounds": {
+    "shoot": "cib:mk18/mk18_shoot",
+    "shoot_3p": "cib:mk18/mk18_shoot_3p",
+    "silence": "cib:mk18/mk18_silence",
+    "silence_3p": "cib:mk18/mk18_silence_3p",
+    "draw": "cib:mk18/mk18_draw",
+    "put_away": "cib:mk18/mk18_put_away",
+    "reload_empty": "cib:mk18/mk18_reload_empty",
+    "reload_tactical": "cib:mk18/mk18_reload_tactical",
+    "inspect": "cib:mk18/mk18_inspect",
+    "inspect_empty": "cib:mk18/mk18_inspect_empty",
+    "dry_fire": "cib:dry_fire",
+    "fire_select": "cib:fire_select",
+    "head_hit": "cib:head_hit",
+    "flesh_hit": "cib:flesh_hit",
+    "kill": "cib:kill"
+  }
+}

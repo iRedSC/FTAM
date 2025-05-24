@@ -1,0 +1,18 @@
+{
+  "slot": "z:attachment/slot/scope_acog_ta31_g_slot",
+  "model": "z:attachment/scope_acog_ta31_g_geo",
+  "texture": "z:attachment/uv/scope_acog_ta31_g",
+  "lod": {
+    "model": "z:attachment/lod/scope_acog_ta31_g_lod",
+    "texture": "z:attachment/lod/scope_acog_ta31_g_lod"
+  },
+  "zoom": [
+    2.5
+  ],
+  "scope": true,
+  "fov": 55.0,
+  "sounds": {
+    "install": "tacz:attachments/scope_general_b",
+    "uninstall": "tacz:attachments/scope_general_b"
+  }
+}
