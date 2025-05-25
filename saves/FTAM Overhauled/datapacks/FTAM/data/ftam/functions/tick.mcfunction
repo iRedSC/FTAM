@@ -1,0 +1,2 @@
+execute as @a[predicate=ftam:medical_armor,predicate=!ftam:has_rescue_cooldown] run effect give @s lrarmor:rescue infinite 1
+execute as @a[predicate=ftam:medical_armor,predicate=!ftam:has_rescue_cooldown,predicate=ftam:sneaking] run effect give @s lrarmor:rescue infinite 1

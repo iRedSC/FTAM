@@ -3,8 +3,8 @@
     "terms": [],
     "entity": "this",
     "predicate": {
-        "effects": {
-            "lrarmor:rescue_cooldown": {}
+        "flags": {
+            "is_sneaking": true
         }
     }
 }

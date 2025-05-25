@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "terms": [],
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "head": {
+                "items": ["lrarmor:medical_helmet"]
+            },
+            "chest": {
+                "items": ["lrarmor:medical_chestplate"]
+            },
+            "legs": {
+                "items": ["lrarmor:medical_leggings"]
+            },
+            "feet": {
+                "items": ["lrarmor:medical_boots"]
+            }
+        }
+    }
+}
