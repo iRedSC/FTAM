@@ -68,18 +68,15 @@
     "tacz.gun.db_short.desc": "Although it's not the right size, it gets the job done.",
     "tacz.gun.deagle_golden.desc": "Shiny and charismatic.",
     "tacz.gun.hk_g3.desc": "The other arm of the free world.",
-    "tacz.gun.hk_mp5a5.desc": "Just like petting a purring cat.",
     "tacz.gun.m16a1.desc": "This is my rifle. There are many like it, but this one is mine.",
     "tacz.gun.m16a4.desc": "A lie of the bureaucracy.",
     "tacz.gun.m95.desc": "Listen to the whistle of the authority.",
     "tacz.gun.rpg7.desc": "There's nothing the RPG can't deal... except one more shot!",
-    "tacz.gun.sks_tactical.desc": "Collectors love to see their favorites reborn in the modern age",
-    "tacz.gun.ump45.desc": "Its flat design makes the enemy's lifeline also flat.",
 
+    "tacz.gun.ump45.desc": "Its flat design makes the enemy's lifeline also flat.",
     "tacz.gun.m320.desc": "Count to three, you still have a chance to run... Three!",
     "tacz.gun.hk416d.desc": "Don't call me M416.",
     "tacz.gun.p320.desc": "Better throw it away, you can destroy them by firewalking.",
-    "tacz.gun.aug.desc": "...",
     "tacz.gun.m700.desc": "You know, I'm a minimalist.",
     "tacz.gun.m107.desc": "Destroying them, Politely.",
     "tacz.gun.m1911.desc": "Why reinvent the wheel?",
@@ -97,10 +94,13 @@
 
     "tacz.gun.m4a1.desc": "§aTier 2",
     "tacz.gun.rpk.desc": "§aTier 2",
+    "tacz.gun.hk_mp5a5.desc": "§aTier 2",
 
     "tacz.gun.vector45.desc": "§bTier 3",
+    "tacz.gun.aug.desc": "§bTier 3",
 
     "tacz.gun.mk14.desc": "§dTier 4",
+    "tacz.gun.sks_tactical.desc": "§dTier 4",
 
     "tacz.gun.scar_l.desc": "§6Tier 5",
     "tacz.gun.deagle.desc": "§6Tier 5",
