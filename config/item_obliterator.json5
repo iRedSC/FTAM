@@ -17,20 +17,6 @@
   //    Example: minecraft:diamond
   "blacklisted_items": [
     "rotted:flusk_viscera",
-    "blocky_siege:cannon",
-    "blocky_siege:mortar",
-    "blocky_siege:cannon_ball_0",
-    "blocky_siege:keg_of_gunpowder_0",
-    "blocky_siege:fire_bomb_0",
-    "blocky_siege:frost_bomb_0",
-    "blocky_siege:soul_bomb_0",
-    "blocky_siege:giant_cannon_ball",
-    "blocky_siege:barrel_of_gunpowder",
-    "blocky_siege:giant_fire_bomb",
-    "blocky_siege:giant_frost_bomb",
-    "blocky_siege:ballista_stand",
-    "blocky_siege:illager_ballista_golem_stand",
-    "blocky_siege:cannon_stand",
     "pneumaticcraft:compressed_iron_boots",
     "pneumaticcraft:compressed_iron_chestplate",
     "pneumaticcraft:compressed_iron_leggings",
@@ -126,18 +112,14 @@
 	"phosphophyllite:fluid_black_hole",
 	"phosphophyllite:item_black_hole",
 	"quartz:quartz_test_block",
-    "zerocore:debugtool",	
+  "zerocore:debugtool",	
 	"pneumaticcraft:amadron_tablet",
-    "thermal:detonator",	
+  "thermal:detonator",	
 	"minecraft:tnt_minecart",
 	"mekanism_lasers:ore_generator",
-	"expatternprovider:ex_drive",
-	"expatternprovider:drive_upgrade",	
 	"expatternprovider:me_packing_tape",	
 	"expatternprovider:infinity_cell",	
 	"expatternprovider:me_packing_tape",	
-	"expatternprovider:fishbig",
-	"thermal:lock"
 	
 	
   ],
@@ -152,9 +134,12 @@
   // -----------------------------------------------------------
   // Items here will not be able to be right-clicked (Interact)
   //    Example: minecraft:apple
-  "only_disable_interactions": [
-    "examplemod:example_item"
+  
+ "only_disable_interactions": [
+    "minecraft:ender_pearl",
+    "minecraft:chorus_fruit"
   ],
+  
   // -----------------------------------------------------------
   // Items here will not be able to be used to attack
   //    Example: minecraft:diamond_sword
@@ -163,7 +148,7 @@
   // Items here will get their recipes disabled
   // Keep in mind this already is applied to blacklisted items
   "only_disable_recipes": [
-    "ironchests:lock",
+  "ironchests:lock",
 	"blocky_siege:spewer_stand",
 	"blocky_siege:crusher",
 	"blocky_siege:brazier_off",
