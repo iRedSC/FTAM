@@ -1,4 +1,4 @@
-name: Attach source zip to release
+name: Release Modpack
 
 on:
     release:
@@ -10,17 +10,18 @@ permissions:
 jobs:
     attach-source:
         runs-on: ubuntu-latest
+        outputs:
+            asset_url: ${{ steps.set-url.outputs.asset_url }}
         steps:
             - name: Checkout repository
               uses: actions/checkout@v4
               with:
-                  fetch-depth: 0 # Gets full commit history for git archive
+                  fetch-depth: 0
 
-            - name: Set up filename
+            - name: Set filename
               id: set-filename
               run: |
-                  # Replace spaces with dashes and remove special characters
-                  CLEAN_NAME=$(echo "${{ github.event.release.name }}" | tr -cd '[:alnum:][:space:]' | tr ' ' '-')
+                  CLEAN_NAME=$(echo "${{ github.event.release.name }}" | tr ' ' '-' | tr -cd '[:alnum:].\-')
                   FILENAME="${CLEAN_NAME}.zip"
                   echo "filename=$FILENAME" >> $GITHUB_OUTPUT
 
@@ -32,3 +33,40 @@ jobs:
               run: gh release upload "${{ github.event.release.tag_name }}" "${{ steps.set-filename.outputs.filename }}"
               env:
                   GITHUB_TOKEN: ${{ github.token }}
+
+            - name: Set asset URL
+              id: set-url
+              run: |
+                  ASSET_URL="https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/${{ steps.set-filename.outputs.filename }}"
+                  echo "asset_url=$ASSET_URL" >> $GITHUB_OUTPUT
+
+    update-technic:
+        needs: attach-source
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                  python-version: "3.10"
+
+            - name: Install dependencies
+              run: pip install requests beautifulsoup4
+
+            - name: Update Technic Modpack
+              env:
+                  TECHNIC_USERNAME: ${{ secrets.TECHNIC_USERNAME }}
+                  TECHNIC_PASSWORD: ${{ secrets.TECHNIC_PASSWORD }}
+                  MODPACK_ID: ${{ secrets.MODPACK_ID }}
+                  MODPACK_NAME: "FTAM Development Pack" # Keep this constant or make dynamic
+                  MODPACK_URL: ${{ needs.attach-source.outputs.asset_url }}
+                  MINECRAFT_VERSION_ID: "155" # Technic's ID for Minecraft 1.12.2
+                  HAS_SERVER: "1"
+                  # Optional parameters:
+                  # MODPACK_TAGS: ""
+                  # MODPACK_WEBSITE: ""
+                  # SERVER_LINK: ""
+                  # DISCORD_ID: ""
+              run: python .github/scripts/update_technic.py
