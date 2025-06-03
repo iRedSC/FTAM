@@ -1,0 +1,34 @@
+name: Attach source zip to release
+
+on:
+    release:
+        types: [published]
+
+permissions:
+    contents: write
+
+jobs:
+    attach-source:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0 # Gets full commit history for git archive
+
+            - name: Set up filename
+              id: set-filename
+              run: |
+                  # Replace spaces with dashes and remove special characters
+                  CLEAN_NAME=$(echo "${{ github.event.release.name }}" | tr -cd '[:alnum:][:space:]' | tr ' ' '-')
+                  FILENAME="${CLEAN_NAME}.zip"
+                  echo "filename=$FILENAME" >> $GITHUB_OUTPUT
+
+            - name: Create source zip
+              run: |
+                  git archive --format=zip -o "${{ steps.set-filename.outputs.filename }}" HEAD
+
+            - name: Upload to release
+              run: gh release upload "${{ github.event.release.tag_name }}" "${{ steps.set-filename.outputs.filename }}"
+              env:
+                  GITHUB_TOKEN: ${{ github.token }}
