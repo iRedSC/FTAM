@@ -91,31 +91,31 @@ import crafttweaker.api.item.TooltipFlag;
 
 <item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "9f3d476d-c118-4544-8365-9f3d476d0005", "generic.armor", 5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "9f3d476d-c118-4544-8365-9f3d476d0005", "tacz:tacz.bullet_resistance", 0.04, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "9f3d476d-c118-4544-8365-9f3d476d0005", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
+<item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "9f3d476d-c118-4544-8365-9f3d476d0005", "generic.movement_speed", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]); // Adjusted to 0.05
 <item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "9f3d476d-c118-4544-8365-9f3d476d0005", "generic.armor_toughness", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "9f3d476d-c118-4544-8365-9f3d476d0005", "forge:step_height_addition", 1.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:nametag_distance>, "9f3d476d-c118-4544-8365-9f3d476d0005", "forge:nametag_distance", -25.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+<item:lrarmor:sniper_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "9f3d476d-c118-4544-8365-9f3d476d0005", "forge:step_height_addition", 0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]); // Adjusted to 0.5
+// Removed nametag distance from helmet
 
 <item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "845db27c-c624-495f-8c9f-845db27c0005", "generic.armor", 9, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "845db27c-c624-495f-8c9f-845db27c0005", "tacz:tacz.bullet_resistance", 0.04, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "845db27c-c624-495f-8c9f-845db27c0005", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
+<item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "845db27c-c624-495f-8c9f-845db27c0005", "generic.movement_speed", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]); // Added speed and adjusted
 <item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "845db27c-c624-495f-8c9f-845db27c0005", "generic.armor_toughness", 4.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "845db27c-c624-495f-8c9f-845db27c0005", "forge:step_height_addition", 1.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:nametag_distance>, "845db27c-c624-495f-8c9f-845db27c0005", "forge:nametag_distance", -25.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+<item:lrarmor:sniper_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "845db27c-c624-495f-8c9f-845db27c0005", "forge:step_height_addition", 0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]); // Added step height and adjusted
+// Removed nametag distance from chestplate
 
 <item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "generic.armor", 8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "tacz:tacz.bullet_resistance", 0.04, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
+<item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "generic.movement_speed", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]); // Added speed and adjusted
 <item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "generic.armor_toughness", 3.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
-<item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "forge:step_height_addition", 1.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
-<item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:nametag_distance>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "forge:nametag_distance", -25.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:lrarmor:sniper_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0005", "forge:step_height_addition", 0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]); // Added step height and adjusted
+// Removed nametag distance from leggings
 
 <item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "generic.armor", 5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 <item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "tacz:tacz.bullet_resistance", 0.04, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "generic.armor_toughness", 3.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "forge:step_height_addition", 1.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:nametag_distance>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "forge:nametag_distance", -25.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "generic.movement_speed", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]); // Added speed and adjusted
+<item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "generic.armor_toughness", 3.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:lrarmor:sniper_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:step_height_addition>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0005", "forge:step_height_addition", 0.5, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]); // Added step height and adjusted
+// Removed nametag distance from boots
 
 <item:lrarmor:medical_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "9f3d476d-c118-4544-8365-9f3d476d0006", "generic.armor", 4, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:lrarmor:medical_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "9f3d476d-c118-4544-8365-9f3d476d0006", "tacz:tacz.bullet_resistance", 0.04, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
@@ -170,94 +170,94 @@ public function addTier(stack as IItemStack , tooltip as stdlib.List<Component>,
     }
 }
 
-<item:lrarmor:dea_armed_helmet>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:dea_armed_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 1);
 });
-<item:lrarmor:dea_armed_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:dea_armed_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 1);
 });
-<item:lrarmor:dea_armed_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:dea_armed_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 1);
 });
-<item:lrarmor:dea_armed_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:dea_armed_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 1);
 });
 
-<item:lrarmor:scout_helmet>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:scout_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 3);
 });
-<item:lrarmor:scout_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:scout_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 3);
 });
-<item:lrarmor:scout_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:scout_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 3);
 });
-<item:lrarmor:scout_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:scout_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 3);
 });
 
-<item:lrarmor:fbi_armed_helmet>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:fbi_armed_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 2);
 });
-<item:lrarmor:fbi_armed_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:fbi_armed_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 2);
 });
-<item:lrarmor:fbi_armed_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:fbi_armed_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 2);
 });
-<item:lrarmor:fbi_armed_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:fbi_armed_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 2);
 });
 
-<item:lrarmor:attacker_helmet>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:attacker_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 4);
 });
-<item:lrarmor:attacker_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:attacker_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 4);
 });
-<item:lrarmor:attacker_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:attacker_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 4);
 });
-<item:lrarmor:attacker_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:attacker_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 4);
 });
 
-<item:lrarmor:defender_helmet>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:defender_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 5);
 });
-<item:lrarmor:defender_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:defender_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 5);
 });
-<item:lrarmor:defender_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:defender_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 5);
 });
-<item:lrarmor:defender_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:defender_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 5);
 });
 
-<item:lrarmor:sniper_helmet>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:sniper_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
-<item:lrarmor:sniper_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:sniper_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
-<item:lrarmor:sniper_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:sniper_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
-<item:lrarmor:sniper_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:sniper_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
 
-<item:lrarmor:medical_helmet>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:medical_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
-<item:lrarmor:medical_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:medical_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
-<item:lrarmor:medical_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:medical_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
-<item:lrarmor:medical_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:medical_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 6);
 });
 
@@ -266,37 +266,38 @@ public function addTier(stack as IItemStack , tooltip as stdlib.List<Component>,
 <item:lrarmor:joker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "9f3d476d-c118-4544-8365-9f3d476d0007", "generic.armor", 6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:lrarmor:joker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "9f3d476d-c118-4544-8365-9f3d476d0007", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
 <item:lrarmor:joker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "9f3d476d-c118-4544-8365-9f3d476d0007", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:lrarmor:joker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "9f3d476d-c118-4544-8365-9f3d476d0007", "forge:entity_gravity", -0.01, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:lrarmor:joker_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "9f3d476d-c118-4544-8365-9f3d476d0007", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+// Removed gravity from helmet
+// Removed block reach from helmet
 
 <item:lrarmor:joker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "845db27c-c624-495f-8c9f-845db27c0007", "generic.armor", 10, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:lrarmor:joker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "845db27c-c624-495f-8c9f-845db27c0007", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
 <item:lrarmor:joker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "845db27c-c624-495f-8c9f-845db27c0007", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:lrarmor:joker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "845db27c-c624-495f-8c9f-845db27c0007", "forge:entity_gravity", -0.01, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:lrarmor:joker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "845db27c-c624-495f-8c9f-845db27c0007", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+// Removed gravity from chestplate
+<item:lrarmor:joker_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "845db27c-c624-495f-8c9f-845db27c0007", "forge:block_reach", 8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]); // All 8 reach from all pieces
 
 <item:lrarmor:joker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0007", "generic.armor", 9, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:lrarmor:joker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0007", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
 <item:lrarmor:joker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0007", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
-<item:lrarmor:joker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0007", "forge:entity_gravity", -0.01, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
-<item:lrarmor:joker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0007", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:lrarmor:joker_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0007", "forge:entity_gravity", -0.02, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]); // -0.02 from -0.01 from helmet and -0.01 from leggings
+// Removed block reach from leggings
 
 <item:lrarmor:joker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0007", "generic.armor", 6, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 <item:lrarmor:joker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0007", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
 <item:lrarmor:joker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0007", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:joker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0007", "forge:entity_gravity", -0.01, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:joker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0007", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:lrarmor:joker_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:entity_gravity>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0007", "forge:entity_gravity", -0.02, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]); // -0.02 from -0.01 from chestplate and -0.01 from boots
+// Removed block reach from boots
 
-<item:lrarmor:joker_helmet>.modifyTooltip((stack, tooltip, flag) => {
+
+<item:lrarmor:joker_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });
-<item:lrarmor:joker_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:joker_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });
-<item:lrarmor:joker_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:joker_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });
-<item:lrarmor:joker_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:joker_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });
 
@@ -305,39 +306,40 @@ public function addTier(stack as IItemStack , tooltip as stdlib.List<Component>,
 <item:lrarmor:irs_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "9f3d476d-c118-4544-8365-9f3d476d0008", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
 <item:lrarmor:irs_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "9f3d476d-c118-4544-8365-9f3d476d0008", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
 <item:lrarmor:irs_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "9f3d476d-c118-4544-8365-9f3d476d0008", "generic.max_health", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
-<item:lrarmor:irs_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "9f3d476d-c118-4544-8365-9f3d476d0008", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:head>]);
-<item:lrarmor:irs_helmet>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "9f3d476d-c118-4544-8365-9f3d476d0008", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:head>]);
+// Removed movement speed from helmet
+// Removed block reach from helmet
 
 <item:lrarmor:irs_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "845db27c-c624-495f-8c9f-845db27c0008", "generic.armor", 11, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:lrarmor:irs_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "845db27c-c624-495f-8c9f-845db27c0008", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
 <item:lrarmor:irs_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "845db27c-c624-495f-8c9f-845db27c0008", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
 <item:lrarmor:irs_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "845db27c-c624-495f-8c9f-845db27c0008", "generic.max_health", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
-<item:lrarmor:irs_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "845db27c-c624-495f-8c9f-845db27c0008", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:chest>]);
-<item:lrarmor:irs_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "845db27c-c624-495f-8c9f-845db27c0008", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]);
+// Removed movement speed from chestplate
+<item:lrarmor:irs_chestplate>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "845db27c-c624-495f-8c9f-845db27c0008", "forge:block_reach", 8, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:chest>]); // All 8 reach from all pieces
 
 <item:lrarmor:irs_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0008", "generic.armor", 10, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:lrarmor:irs_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0008", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
 <item:lrarmor:irs_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0008", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
 <item:lrarmor:irs_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0008", "generic.max_health", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
-<item:lrarmor:irs_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0008", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]);
-<item:lrarmor:irs_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0008", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:legs>]);
+<item:lrarmor:irs_leggings>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "6d8d9b1a-0a2a-4f5b-8c9d-6d8d9b1a0008", "generic.movement_speed", 0.2, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:legs>]); // 0.2 from 0.1 from helmet and 0.1 from leggings
+// Removed block reach from leggings
 
 <item:lrarmor:irs_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0008", "generic.armor", 7, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 <item:lrarmor:irs_boots>.anyDamage().addGlobalAttributeModifier(<attribute:tacz:tacz.bullet_resistance>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0008", "tacz:tacz.bullet_resistance", 0.05, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
 <item:lrarmor:irs_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.armor_toughness>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0008", "generic.armor_toughness", 6.0, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
 <item:lrarmor:irs_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.max_health>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0008", "generic.max_health", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:irs_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0008", "generic.movement_speed", 0.1, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]);
-<item:lrarmor:irs_boots>.anyDamage().addGlobalAttributeModifier(<attribute:forge:block_reach>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0008", "forge:block_reach", 2, AttributeOperation.ADDITION, [<constant:minecraft:equipmentslot:feet>]);
+<item:lrarmor:irs_boots>.anyDamage().addGlobalAttributeModifier(<attribute:minecraft:generic.movement_speed>, "1e6f7d5c-2c3b-4a1e-8e9f-1e6f7d5c0008", "generic.movement_speed", 0.2, AttributeOperation.MULTIPLY_BASE, [<constant:minecraft:equipmentslot:feet>]); // 0.2 from 0.1 from chestplate and 0.1 from boots
+// Removed block reach from boots
 
-<item:lrarmor:irs_helmet>.modifyTooltip((stack, tooltip, flag) => {
+
+<item:lrarmor:irs_helmet>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });
-<item:lrarmor:irs_chestplate>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:irs_chestplate>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });
-<item:lrarmor:irs_leggings>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:irs_leggings>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });
-<item:lrarmor:irs_boots>.modifyTooltip((stack, tooltip, flag) => {
+<item:lrarmor:irs_boots>.anyDamage().modifyTooltip((stack, tooltip, flag) => {
     addTier(stack, tooltip, flag, 7);
 });

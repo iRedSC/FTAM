@@ -1,0 +1,15 @@
+{
+    "condition": "minecraft:entity_properties",
+    "terms": [],
+    "entity": "this",
+    "predicate": {
+        "flags": {
+            "is_sprinting": true
+        },
+        "equipment": {
+            "feet": {
+                "nbt": "{static:1b}"
+            }
+        }
+    }
+}
