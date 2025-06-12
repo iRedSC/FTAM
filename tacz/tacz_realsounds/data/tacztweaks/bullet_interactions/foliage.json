@@ -1,0 +1,10 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:plant"
+  ],
+  "pierce": {
+    "type": "damage",
+    "damage_falloff": 0.2
+  }
+}

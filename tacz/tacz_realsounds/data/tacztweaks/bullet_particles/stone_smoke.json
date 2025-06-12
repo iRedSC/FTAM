@@ -1,0 +1,44 @@
+{
+    "type": "block",
+    "blocks": [
+        "#tacztweaks:stones",
+        "#tacztweaks:terracotta",
+        "#tacztweaks:ores",
+        "#tacztweaks:mod/bricks",
+        "#tacztweaks:concrete"
+    ],
+    "hit": [
+        {
+            "particle": "minecraft:block %s",
+            "count": 2,
+            "speed": 2,
+            "force": true
+        },
+        {
+            "particle": "minecraft:campfire_cosy_smoke",
+            "count": 2,
+            "speed": 0.15,
+            "force": true
+        }
+    ],
+    "pierce": [
+        {
+            "particle": "minecraft:block %s",
+            "count": 10,
+            "speed": 3,
+            "force": true
+        },
+        {
+            "particle": "minecraft:campfire_cosy_smoke",
+            "count": 2,
+            "speed": 0.3,
+            "force": true
+        }
+    ],
+    "break": {
+        "particle": "minecraft:block %s",
+        "count": 15,
+        "speed": 0.3,
+        "force": true
+    }
+}

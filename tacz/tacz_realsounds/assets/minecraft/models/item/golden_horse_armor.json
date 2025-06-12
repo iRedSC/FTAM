@@ -1,0 +1,86 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/golden_horse_armor"
+	},
+	"overrides": [
+
+		{"predicate": {"custom_model_data":10}, "model":"item/weapons/kar98k/kar98k"},
+		{"predicate": {"custom_model_data":11}, "model":"item/weapons/kar98k/kar98k_zp8"},
+		{"predicate": {"custom_model_data":12}, "model":"item/weapons/mosin/m91"},
+		{"predicate": {"custom_model_data":13}, "model":"item/weapons/mosin/m91_pu"},
+		{"predicate": {"custom_model_data":14}, "model":"item/weapons/g43/g43"},
+		{"predicate": {"custom_model_data":15}, "model":"item/weapons/svt40/svt40"},
+		{"predicate": {"custom_model_data":16}, "model":"item/weapons/mp40/mp40"},
+		{"predicate": {"custom_model_data":17}, "model":"item/weapons/mp41/mp41"},
+		{"predicate": {"custom_model_data":18}, "model":"item/weapons/pps43/pps43"},
+		{"predicate": {"custom_model_data":19}, "model":"item/weapons/ppsh41/ppsh41"},
+		{"predicate": {"custom_model_data":20}, "model":"item/weapons/stg44/stg44"},
+		{"predicate": {"custom_model_data":21}, "model":"item/weapons/mg34/mg34"},
+		{"predicate": {"custom_model_data":22}, "model":"item/weapons/mg42/mg42"},
+		{"predicate": {"custom_model_data":23}, "model":"item/weapons/dp28/dp28"},
+		{"predicate": {"custom_model_data":24}, "model":"item/weapons/mg42/mg42a"},
+
+
+		{"predicate": {"custom_model_data":100}, "model":"item/weapons/pzfst/pzfst"},
+
+		{"predicate": {"custom_model_data":200}, "model":"item/weapons/kwk40/kwk40"},
+
+		{"predicate": {"custom_model_data":300}, "model":"item/weapons/util/binoculars"},
+
+	
+
+		{"predicate": {"custom_model_data":1010}, "model":"item/weapons/kar98k/kar98k_aim"},
+		{"predicate": {"custom_model_data":1011}, "model":"item/weapons/kar98k/kar98k_zp8_aim"},
+		{"predicate": {"custom_model_data":1012}, "model":"item/weapons/mosin/m91_aim"},
+		{"predicate": {"custom_model_data":1013}, "model":"item/weapons/mosin/m91_pu_aim"},
+		{"predicate": {"custom_model_data":1014}, "model":"item/weapons/g43/g43_aim"},
+		{"predicate": {"custom_model_data":1015}, "model":"item/weapons/svt40/svt40_aim"},
+		{"predicate": {"custom_model_data":1016}, "model":"item/weapons/mp40/mp40_aim"},
+		{"predicate": {"custom_model_data":1017}, "model":"item/weapons/mp41/mp41_aim"},
+		{"predicate": {"custom_model_data":1018}, "model":"item/weapons/pps43/pps43_aim"},
+		{"predicate": {"custom_model_data":1019}, "model":"item/weapons/ppsh41/ppsh41_aim"},
+		{"predicate": {"custom_model_data":1020}, "model":"item/weapons/stg44/stg44_aim"},
+		{"predicate": {"custom_model_data":1021}, "model":"item/weapons/mg34/mg34_aim"},
+		{"predicate": {"custom_model_data":1022}, "model":"item/weapons/mg42/mg42_aim"},
+		{"predicate": {"custom_model_data":1023}, "model":"item/weapons/dp28/dp28_aim"},
+		{"predicate": {"custom_model_data":1024}, "model":"item/weapons/mg42/mg42a_aim"},
+
+		{"predicate": {"custom_model_data":1100}, "model":"item/weapons/pzfst/pzfst_aim"},
+
+		{"predicate": {"custom_model_data":1300}, "model":"item/weapons/util/binoculars_aim"},
+
+
+
+		{"predicate": {"custom_model_data":5014}, "model":"item/weapons/g43/g43_empty"},
+		{"predicate": {"custom_model_data":5015}, "model":"item/weapons/svt40/svt40_empty"},
+		{"predicate": {"custom_model_data":5016}, "model":"item/weapons/mp40/mp40_empty"},
+		{"predicate": {"custom_model_data":5017}, "model":"item/weapons/mp41/mp41_empty"},
+		{"predicate": {"custom_model_data":5018}, "model":"item/weapons/pps43/pps43_empty"},
+		{"predicate": {"custom_model_data":5019}, "model":"item/weapons/ppsh41/ppsh41_empty"},
+		{"predicate": {"custom_model_data":5023}, "model":"item/weapons/dp28/dp28_empty"},
+
+		{"predicate": {"custom_model_data":5100}, "model":"item/weapons/pzfst/pzfst_empty"},
+
+
+
+		{"predicate": {"custom_model_data":6010}, "model":"item/weapons/kar98k/kar98k_sprint"},
+		{"predicate": {"custom_model_data":6011}, "model":"item/weapons/kar98k/kar98k_zp8_sprint"},
+		{"predicate": {"custom_model_data":6012}, "model":"item/weapons/mosin/m91_sprint"},
+		{"predicate": {"custom_model_data":6013}, "model":"item/weapons/mosin/m91_pu_sprint"},
+		{"predicate": {"custom_model_data":6014}, "model":"item/weapons/g43/g43_sprint"},
+		{"predicate": {"custom_model_data":6015}, "model":"item/weapons/svt40/svt40_sprint"},
+		{"predicate": {"custom_model_data":6016}, "model":"item/weapons/mp40/mp40_sprint"},
+		{"predicate": {"custom_model_data":6017}, "model":"item/weapons/mp41/mp41_sprint"},
+		{"predicate": {"custom_model_data":6018}, "model":"item/weapons/pps43/pps43_sprint"},
+		{"predicate": {"custom_model_data":6019}, "model":"item/weapons/ppsh41/ppsh41_sprint"},
+		{"predicate": {"custom_model_data":6020}, "model":"item/weapons/stg44/stg44_sprint"},
+		{"predicate": {"custom_model_data":6021}, "model":"item/weapons/mg34/mg34_sprint"},
+		{"predicate": {"custom_model_data":6022}, "model":"item/weapons/mg42/mg42_sprint"},
+		{"predicate": {"custom_model_data":6023}, "model":"item/weapons/dp28/dp28_sprint"},
+		{"predicate": {"custom_model_data":6024}, "model":"item/weapons/mg42/mg42a_sprint"},
+
+		{"predicate": {"custom_model_data":6100}, "model":"item/weapons/pzfst/pzfst_sprint"}
+
+	]
+}

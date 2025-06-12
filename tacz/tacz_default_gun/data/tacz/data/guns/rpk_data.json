@@ -28,10 +28,10 @@
             "head_shot_multiplier": 1.5,
             // 距离-伤害分段常函数
             "damage_adjust": [
-                { "distance": 36, "damage": 10 },
-                { "distance": 64, "damage": 7 },
+                { "distance": 36, "damage": 6.5 },
+                { "distance": 64, "damage": 4 },
                 // 如果你忘记写这个无穷，那么超过上述距离，我就认为是 0
-                { "distance": "infinite", "damage": 6 }
+                { "distance": "infinite", "damage": 3 }
             ]
         },
         // 速度 m/s

@@ -1,0 +1,12 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:sounds/water"
+  ],
+  "hit": {
+    "sound": "bullet.impact_water"
+  },
+  "pierce": {
+    "sound": "bullet.impact_water"
+  }
+}

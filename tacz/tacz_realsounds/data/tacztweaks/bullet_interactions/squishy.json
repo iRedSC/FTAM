@@ -1,0 +1,17 @@
+{
+	"type": "block",
+	"blocks": [
+		"minecraft:melon",
+		"minecraft:pumpkin",
+		"minecraft:carved_pumpkin",
+		"minecraft:jack_o_lantern"
+	],
+	"block_break": {
+		"type": "dynamic_damage",
+		"multiplier": 0.4
+	},
+	"pierce": {
+		"type": "damage",
+		"damage_falloff": 0.5
+	}
+}

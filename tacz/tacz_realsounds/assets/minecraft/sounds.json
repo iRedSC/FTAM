@@ -1,0 +1,769 @@
+{
+  "misc.stim": {
+    "category": "master",
+    "sounds": [ "misc/stim" ]
+  },
+  "grenade.throw": {
+    "sounds": [ "explosion/grenade/throw" ]
+  },
+  "grenade.frag": {
+    "sounds": [ "explosion/grenade/frag" ]
+  },
+  "grenade.frag_dist": {
+    "sounds": [ "explosion/grenade/frag_dist" ]
+  },
+  "grenade.flash": {
+    "sounds": [ "explosion/grenade/flash" ]
+  },
+  "grenade.earring": {
+    "sounds": [ "explosion/grenade/flash_ear" ]
+  },
+  "grenade.throw_nitro": {
+    "sounds": [ "explosion/grenade/throw_nitro" ]
+  },
+  "grenade.nitro": {
+    "sounds": [ "explosion/grenade/nitro" ]
+  },
+  "grenade.nitro_dist": {
+    "sounds": [ "explosion/grenade/nitro_dist" ]
+  },
+  "grenade.nitro_call": {
+    "sounds": [ "explosion/grenade/nitro_call" ]
+  },
+  "grenade.equip": {
+    "sounds": [ "explosion/grenade/equip" ]
+  },
+  "grenade.drop": {
+    "sounds": [ "explosion/grenade/drop" ]
+  },
+  "grenade.debris_grass": {
+    "sounds": [ "explosion/grenade/debris/debris_grass01","explosion/grenade/debris/debris_grass02","explosion/grenade/debris/debris_grass03","explosion/grenade/debris/debris_grass04" ]
+  },
+  "grenade.hit_grass": {
+    "sounds": [ "explosion/grenade/hit/grass_01", "explosion/grenade/hit/grass_02", "explosion/grenade/hit/grass_03","explosion/grenade/hit/grass_04" ],
+    "subtitle": "수류탄이 떨어짐"
+  },
+  "grenade.hit_dirt": {
+    "sounds": [ "explosion/grenade/hit/dirt_01", "explosion/grenade/hit/dirt_02", "explosion/grenade/hit/dirt_03","explosion/grenade/hit/dirt_04" ],
+    "subtitle": "수류탄이 떨어짐"
+  },
+  "grenade.hit_concrete": {
+    "sounds": [ "explosion/grenade/hit/concrete_01", "explosion/grenade/hit/concrete_02", "explosion/grenade/hit/concrete_03","explosion/grenade/hit/concrete_04" ],
+    "subtitle": "수류탄이 떨어짐"
+  },
+  "grenade.hit_metal": {
+    "sounds": [ "explosion/grenade/hit/metal_01", "explosion/grenade/hit/metal_02", "explosion/grenade/hit/metal_03","explosion/grenade/hit/metal_04" ],
+    "subtitle": "수류탄이 떨어짐"
+  },
+  "grenade.hit_mud": {
+    "sounds": [ "explosion/grenade/hit/mud_01", "explosion/grenade/hit/mud_02", "explosion/grenade/hit/mud_03","explosion/grenade/hit/mud_04" ],
+    "subtitle": "수류탄이 떨어짐"
+  },
+  "grenade.hit_wood": {
+    "sounds": [ "explosion/grenade/hit/wood_01", "explosion/grenade/hit/wood_02", "explosion/grenade/hit/wood_03","explosion/grenade/hit/wood_04" ],
+    "subtitle": "수류탄이 떨어짐"
+  },
+  "grenade.hit_water": {
+    "sounds": [ "explosion/grenade/hit/water_01", "explosion/grenade/hit/wood_02", "explosion/grenade/hit/water_03","explosion/grenade/hit/water_04" ],
+    "subtitle": "수류탄이 물에 빠짐"
+  },
+  
+  
+  "kar98k.fire_1p": {
+    "sounds": [ "kar98k/fire_1p" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "kar98k.fire_3p_close": {
+    "sounds": [ "kar98k/fire_3p_close" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "kar98k.fire_3p_med": {
+    "sounds": [ "kar98k/fire_3p_med" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "kar98k.fire_3p_far": {
+    "sounds": [ "kar98k/fire_3p_far" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "kar98k.cycle": {
+    "sounds": [ "kar98k/cycle" ],
+    "subtitle": "소총 약실을 재장전함"
+  },
+  "kar98k.lock": {
+    "sounds": [ "kar98k/lock" ],
+    "subtitle": "소총 볼트 후퇴"
+  },
+  "kar98k.unlock": {
+    "sounds": [ "kar98k/unlock" ],
+    "subtitle": "소총 볼트 전진"
+  },
+  "kar98k.round": {
+    "sounds": [ "kar98k/round1", "kar98k/round2", "kar98k/round3", "kar98k/round4", "kar98k/round5" ],
+    "subtitle": "소총탄이 장전됨"
+  },
+  "kar98k.clip": {
+    "sounds": [ "kar98k/clip" ],
+    "subtitle": "탄약 클립이 장전됨"
+  },
+  "kar98k.equip": {
+    "sounds": [ "kar98k/equip" ],
+    "subtitle": "총기를 듦"
+  },
+  "kar98k.drop": {
+    "sounds": [ "kar98k/drop" ],
+    "subtitle": "총기를 내림"
+  },
+
+  "mosin.fire_1p": {
+    "sounds": [ "mosin/fire_1p" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "mosin.fire_3p_close": {
+    "sounds": [ "mosin/fire_3p_close" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "mosin.fire_3p_med": {
+    "sounds": [ "mosin/fire_3p_med" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "mosin.fire_3p_far": {
+    "sounds": [ "mosin/fire_3p_far" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "mosin.cycle": {
+    "sounds": [ "mosin/cycle" ],
+    "subtitle": "소총 약실을 재장전함"
+  },
+  "mosin.lock": {
+    "sounds": [ "mosin/lock" ],
+    "subtitle": "소총 볼트 후퇴"
+  },
+  "mosin.unlock": {
+    "sounds": [ "mosin/unlock" ],
+    "subtitle": "소총 볼트 전진"
+  },
+  "mosin.round": {
+    "sounds": [ "mosin/round1", "mosin/round2", "mosin/round3", "mosin/round4" ],
+    "subtitle": "소총탄이 장전됨"
+  },
+
+  "pzfst.fire": {
+    "sounds": [ "pzfst/fire" ],
+    "subtitle": "대전차 로켓이 발사됨"
+  },
+  "pzfst.equip": {
+    "sounds": [ "pzfst/equip" ],
+    "subtitle": "대전차 화기를 듦"
+  },
+  "pzfst.drop": {
+    "sounds": [ "pzfst/drop" ],
+    "subtitle": "대전차 화기를 내림"
+  },
+
+  "mp40.fire_1p": {
+    "sounds": [ "mp40/fire_1p_1", "mp40/fire_1p_2", "mp40/fire_1p_3", "mp40/fire_1p_4" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "mp40.fire_3p_close": {
+    "sounds": [ "mp40/fire_3p_close_1", "mp40/fire_3p_close_2", "mp40/fire_3p_close_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "mp40.fire_3p_med": {
+    "sounds": [ "mp40/fire_3p_med_1", "mp40/fire_3p_med_2", "mp40/fire_3p_med_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "mp40.fire_3p_far": {
+    "sounds": [ "mp40/fire_3p_far" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "mp40.bolt": {
+    "sounds": [ "mp40/bolt" ],
+    "subtitle": "기관단총 노리쇠가 고정됨"
+  },
+  "mp40.magout": {
+    "sounds": [ "mp40/magout" ],
+    "subtitle": "기관단총 탄창이 분리됨"
+  },
+  "mp40.magin": {
+    "sounds": [ "mp40/magin" ],
+    "subtitle": "기관단총 탄창이 결합됨"
+  },
+
+  "pps43.fire_1p": {
+    "sounds": [ "pps43/fire_1p_1", "pps43/fire_1p_2", "pps43/fire_1p_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "pps43.fire_3p_close": {
+    "sounds": [ "pps43/fire_3p_close_1", "pps43/fire_3p_close_2", "pps43/fire_3p_close_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "pps43.fire_3p_med": {
+    "sounds": [ "pps43/fire_3p_med_1", "pps43/fire_3p_med_2", "pps43/fire_3p_med_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "pps43.fire_3p_far": {
+    "sounds": [ "pps43/fire_3p_far" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "pps43.bolt": {
+    "sounds": [ "pps43/bolt" ],
+    "subtitle": "기관단총 노리쇠가 고정됨"
+  },
+  "pps43.magout": {
+    "sounds": [ "pps43/magout" ],
+    "subtitle": "기관단총 탄창이 분리됨"
+  },
+  "pps43.magin": {
+    "sounds": [ "pps43/magin" ],
+    "subtitle": "기관단총 탄창이 결합됨"
+  },
+  "ppsh41.bolt": {
+    "sounds": [ "ppsh41/bolt" ],
+    "subtitle": "기관단총 노리쇠가 고정됨"
+  },
+  "ppsh41.magout": {
+    "sounds": [ "ppsh41/magout" ],
+    "subtitle": "기관단총 탄창이 분리됨"
+  },
+  "ppsh41.magin": {
+    "sounds": [ "ppsh41/magin" ],
+    "subtitle": "기관단총 탄창이 결합됨"
+  },
+
+  "stg44.fire_1p": {
+    "sounds": [ "stg44/fire_1p_1", "stg44/fire_1p_2", "stg44/fire_1p_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "stg44.fire_3p_close": {
+    "sounds": [ "stg44/fire_3p_close_1", "stg44/fire_3p_close_2", "stg44/fire_3p_close_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "stg44.fire_3p_med": {
+    "sounds": [ "stg44/fire_3p_med_1", "stg44/fire_3p_med_2", "stg44/fire_3p_med_3" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "stg44.fire_3p_far": {
+    "sounds": [ "stg44/fire_3p_far" ],
+    "subtitle": "기관단총이 격발됨"
+  },
+  "stg44.bolt": {
+    "sounds": [ "stg44/bolt" ],
+    "subtitle": "기관단총 노리쇠가 고정됨"
+  },
+  "stg44.magout": {
+    "sounds": [ "stg44/magout" ],
+    "subtitle": "기관단총 탄창이 분리됨"
+  },
+  "stg44.magin": {
+    "sounds": [ "stg44/magin" ],
+    "subtitle": "기관단총 탄창이 결합됨"
+  },
+
+  "g43.fire_1p": {
+    "sounds": [ "g43/fire_1p" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "g43.fire_3p_close": {
+    "sounds": [ "g43/fire_3p_close" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "g43.fire_3p_med": {
+    "sounds": [ "g43/fire_3p_med" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "g43.fire_3p_far": {
+    "sounds": [ "g43/fire_3p_far" ],
+    "subtitle": "소총이 격발됨"
+  },
+  "g43.bolt": {
+    "sounds": [ "g43/bolt" ],
+    "subtitle": "소총 노리쇠가 전진함"
+  },
+  "g43.boltback": {
+    "sounds": [ "g43/boltback" ],
+    "subtitle": "소총 노리쇠가 후퇴고정됨"
+  },
+  "g43.magout": {
+    "sounds": [ "g43/magout" ],
+    "subtitle": "소총 탄창이 분리됨"
+  },
+  "g43.magin": {
+    "sounds": [ "g43/magin" ],
+    "subtitle": "소총 탄창이 결합됨"
+  },
+
+  "mg34.fire_1p": {
+    "sounds": [ "mg34/fire_1p_1", "mg34/fire_1p_2", "mg34/fire_1p_3", "mg34/fire_1p_4", "mg34/fire_1p_5" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg34.fire_3p_close": {
+    "sounds": [ "mg34/fire_3p_close_1", "mg34/fire_3p_close_2", "mg34/fire_3p_close_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg34.fire_3p_med": {
+    "sounds": [ "mg34/fire_3p_med_1", "mg34/fire_3p_med_2", "mg34/fire_3p_med_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg34.fire_3p_far": {
+    "sounds": [ "mg34/fire_3p_far_1", "mg34/fire_3p_far_2", "mg34/fire_3p_far_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg34.trigger": {
+    "sounds": [ "mg34/trigger" ]
+  },
+  "mg34.bolt": {
+    "sounds": [ "mg34/bolt" ],
+    "subtitle": "기관단총 노리쇠가 장전됨"
+  },
+  "mg34.magout": {
+    "sounds": [ "mg34/magout" ],
+    "subtitle": "기관총 탄띠가 분리됨"
+  },
+  "mg34.magin": {
+    "sounds": [ "mg34/magin" ],
+    "subtitle": "기관총 탄띠가 정렬됨"
+  },
+
+  "mg42.fire_1p": {
+    "sounds": [ "mg42/fire_1p_1", "mg42/fire_1p_2", "mg42/fire_1p_3", "mg42/fire_1p_4", "mg42/fire_1p_5" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg42.fire_3p_close": {
+    "sounds": [ "mg42/fire_3p_close_1", "mg42/fire_3p_close_2", "mg42/fire_3p_close_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg42.fire_3p_med": {
+    "sounds": [ "mg42/fire_3p_med_1", "mg42/fire_3p_med_2", "mg42/fire_3p_med_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg42.fire_3p_far": {
+    "sounds": [ "mg42/fire_3p_far_1", "mg42/fire_3p_far_2", "mg42/fire_3p_far_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "mg42.trigger": {
+    "sounds": [ "mg42/trigger" ]
+  },
+  "mg42.bolt": {
+    "sounds": [ "mg42/bolt" ],
+    "subtitle": "기관단총 노리쇠가 장전됨"
+  },
+  "mg42.magout": {
+    "sounds": [ "mg42/magout" ],
+    "subtitle": "기관총 탄창이 분리됨"
+  },
+  "mg42.magin": {
+    "sounds": [ "mg42/magin" ],
+    "subtitle": "기관총 탄창이 결합되고 탄띠가 정렬됨"
+  },
+  "mg42.coveropen": {
+    "sounds": [ "mg42/coveropen" ],
+    "subtitle": "기관총 덮개가 열림"
+  },
+  "mg42.coverclose": {
+    "sounds": [ "mg42/coverclose" ],
+    "subtitle": "기관총 덮개가 닫힘"
+  },
+
+  "dp28.fire_1p": {
+    "sounds": [ "dp28/fire_1p_1", "dp28/fire_1p_2", "dp28/fire_1p_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "dp28.fire_3p_close": {
+    "sounds": [ "dp28/fire_3p_close_1", "dp28/fire_3p_close_2", "dp28/fire_3p_close_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "dp28.fire_3p_med": {
+    "sounds": [ "dp28/fire_3p_med_1", "dp28/fire_3p_med_2", "dp28/fire_3p_med_3" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "dp28.fire_3p_far": {
+    "sounds": [ "dp28/fire_3p_far" ],
+    "subtitle": "기관총이 격발됨"
+  },
+  "dp28.trigger": {
+    "sounds": [ "dp28/trigger" ]
+  },
+  "dp28.bolt": {
+    "sounds": [ "dp28/bolt" ],
+    "subtitle": "기관단총 노리쇠가 장전됨"
+  },
+  "dp28.magout": {
+    "sounds": [ "dp28/magout" ],
+    "subtitle": "기관총 탄창이 분리됨"
+  },
+  "dp28.magin": {
+    "sounds": [ "dp28/magin" ],
+    "subtitle": "기관총 탄창이 결합됨"
+  },
+
+  "svt40.bolt": {
+    "sounds": [ "svt40/bolt" ],
+    "subtitle": "소총 노리쇠가 전진함"
+  },
+  "svt40.boltback": {
+    "sounds": [ "svt40/boltback" ],
+    "subtitle": "소총 노리쇠가 후퇴고정됨"
+  },
+  "svt40.magout": {
+    "sounds": [ "svt40/magout" ],
+    "subtitle": "소총 탄창이 분리됨"  
+  },
+  "svt40.magin": {
+    "sounds": [ "svt40/magin" ],
+    "subtitle": "소총 탄창이 결합됨"
+  },
+
+  "foley.arm": {
+    "sounds": [ "g43/foley" ],
+    "subtitle": "탄창을 꺼냄"
+  },
+
+  "kwk40.fire": {
+    "sounds": [ "kwk40/fire" ],
+    "subtitle": "전차포가 발사됨"
+  },
+  "kwk40.reload": {
+    "sounds": [ "kwk40/reload" ],
+    "subtitle": "전차포가 재장전됨"
+  },
+
+  "a10.flyby": {
+    "sounds": [ "a10/flyby01","a10/flyby02","a10/flyby03" ],
+    "subtitle": "A-10 공격기가 공역을 날음"
+  },
+  "a10.sonic_start": {
+    "sounds": [ "a10/sonic_start" ],
+    "subtitle": "GAU-8/A의 탄환이 음속폭음을 일으킴"
+  },
+  "a10.sonic_loop": {
+    "sounds": [ "a10/sonic_loop" ],
+    "subtitle": "GAU-8/A의 탄환이 음속폭음을 일으킴"
+  },
+  "a10.sonic_end": {
+    "sounds": [ "a10/sonic_end" ],
+    "subtitle": "GAU-8/A의 탄환이 음속폭음을 일으킴"
+  },
+  "a10.fire": {
+    "sounds": [ "a10/fire01","a10/fire02","a10/fire03","a10/fire04" ],
+    "subtitle": "GAU-8/A가 발사됨"
+  },
+  "a10.vo_arriving": {
+    "sounds": [ "a10/vo_arriving01","a10/vo_arriving02","a10/vo_arriving03","a10/vo_arriving04" ],
+    "subtitle": "무전: A-10 공격기가 공역에 진입 중임"
+  },
+  "a10.vo_leaving": {
+    "sounds": [ "a10/vo_leaving01","a10/vo_leaving02","a10/vo_leaving03","a10/vo_leaving04" ],
+    "subtitle": "무전: A-10 공격기가 공역에서 퇴출 중임"
+  },
+  "explosion.frag": {
+    "sounds": [ "explosion/frag01","explosion/frag02","explosion/frag03","explosion/frag04" ],
+    "subtitle": "폭발 파편이 튐"
+  },
+
+  "artillery.incoming": {
+    "sounds": [ "explosion/artillery/artillery_incoming01","explosion/artillery/artillery_incoming02","explosion/artillery/artillery_incoming03","explosion/artillery/artillery_incoming04","explosion/artillery/artillery_incoming05" ],
+    "subtitle": "포탄이 공기를 가름"
+  },
+  "artillery.explosion": {
+    "sounds": [ "explosion/artillery/explode01","explosion/artillery/explode02","explosion/artillery/explode03","explosion/artillery/explode04","explosion/artillery/explode05" ],
+    "subtitle": "포탄이 폭발함"
+  },
+  "artillery.fire": {
+    "sounds": [ "explosion/artillery/fire01","explosion/artillery/fire02","explosion/artillery/fire03" ],
+    "subtitle": "곡사포가 먼 곳에서 발사됨"
+  },
+  "artillery.explosion_far": {
+    "sounds": [ "ambient/explosion/artillery/ambience_distant0","ambient/explosion/artillery/ambience_distant1","ambient/explosion/artillery/ambience_distant2","ambient/explosion/artillery/ambience_distant3" ],
+    "subtitle": "먼 곳에서 포탄이 폭발함"
+  },
+
+  "bomb.explosion": {
+    "sounds": [ "explosion/bomb/explosion01","explosion/bomb/explosion02","explosion/bomb/explosion03","explosion/bomb/explosion04" ],
+    "subtitle": "폭탄이 폭발함"
+  },
+  "bomb.ground": {
+    "sounds": [ "explosion/bomb/ground01","explosion/bomb/ground02" ],
+    "subtitle": "토양이 사방으로 튐"
+  },
+  "bomb.water": {
+    "sounds": [ "explosion/bomb/water01","explosion/bomb/water02" ],
+    "subtitle": "물이 사방으로 튐"
+  },
+  "mg151.fire": {
+    "sounds": [ "support/mg151_fire" ],
+    "subtitle": "기총이 발사됨"
+  },
+  "vya23.fire": {
+    "sounds": [ "support/vya23_fire" ],
+    "subtitle": "기총이 발사됨"
+  },
+  "plane.flyby": {
+    "sounds": [ "support/flyby/flyby1","support/flyby/flyby2", "support/flyby/flyby3","support/flyby/flyby4","support/flyby/flyby5","support/flyby/flyby6","support/flyby/flyby7","support/flyby/flyby8" ],
+    "subtitle": "비행기가 지나감"
+  },
+  "plane.mghit_ground": {
+    "sounds": [ "explosion/mg/hit1","explosion/mg/hit2","explosion/mg/hit3","explosion/mg/hit4" ],
+    "subtitle": "기총탄이 작렬함"
+  },
+  "plane.mghit_water": {
+    "sounds": [ "explosion/mg/water1","explosion/mg/water2","explosion/mg/water3" ],
+    "subtitle": "기총탄이 물에 맞음"
+  },
+
+  "alert.air_alarm": {
+    "sounds": [ "explosion/air_alarm" ],
+    "subtitle": "경보 사이렌이 울림"
+  },
+  
+
+
+  "556.flyby": {
+    "sounds": [ "shared/flyby_556mm01","shared/flyby_556mm02","shared/flyby_556mm03","shared/flyby_556mm04","shared/flyby_556mm05" ],
+    "subtitle": "탄환이 스쳐 지나감"
+  },
+  "9.flyby": {
+    "sounds": [ "shared/flyby_9mm01","shared/flyby_9mm02","shared/flyby_9mm03","shared/flyby_9mm04","shared/flyby_9mm05" ],
+    "subtitle": "탄환이 스쳐 지나감"
+  },
+  "556.crack": {
+    "sounds": [ "shared/crack556mm_01","shared/crack556mm_02","shared/crack556mm_03","shared/crack556mm_04","shared/crack556mm_05" ],
+    "subtitle": "탄환이 음속 폭음을 일으킴"
+  },
+  "762.flyby": {
+    "sounds": [ "shared/flyby_762mm0","shared/flyby_762mm1","shared/flyby_762mm2","shared/flyby_762mm3","shared/flyby_762mm4" ],
+    "subtitle": "탄환이 스쳐 지나감"
+  },
+  "762.crack": {
+    "sounds": [ "shared/crack762mm01","shared/crack762mm02","shared/crack762mm03","shared/crack762mm04","shared/crack762mm05" ],
+    "subtitle": "탄환이 음속 폭음을 일으킴"
+  },
+  "hcal.flyby": {
+    "sounds": [ "shared/flyby_sniper05","shared/flyby_sniper01","shared/flyby_sniper02","shared/flyby_sniper03","shared/flyby_sniper04" ],
+    "subtitle": "탄환이 스쳐 지나감"
+  },
+  "hcal.crack": {
+    "sounds": [ "shared/crack_sniper01","shared/crack_sniper02","shared/crack_sniper03","shared/crack_sniper04","shared/crack_sniper05" ],
+    "subtitle": "탄환이 음속 폭음을 일으킴"
+  },
+  "bullet.ricco": {
+    "sounds": [ "shared/ricco0","shared/ricco1","shared/ricco2","shared/ricco3","shared/ricco4","shared/ricco5" ],
+    "subtitle": "탄환이 도탄됨"
+  },
+  "bullet.ricco_dist": {
+    "sounds": [ "shared/ricco_dist0","shared/ricco_dist1","shared/ricco_dist2","shared/ricco_dist3","shared/ricco_dist4","shared/ricco_dist5" ],
+    "subtitle": "탄환이 도탄됨"
+  },
+  "bullet.impact_glass": {
+    "sounds": [ "shared/glass_bullet_impact01","shared/glass_bullet_impact02","shared/glass_bullet_impact03","shared/glass_bullet_impact04" ],
+    "subtitle": "유리에 맞음"
+  },
+  "bullet.break_glass": {
+    "sounds": [ "shared/glass_break01","shared/glass_break02","shared/glass_break03","shared/glass_break04" ],
+    "subtitle": "유리가 부서짐"
+  },
+  "bullet.debris_glass": {
+    "sounds": [ "shared/glass_debris0","shared/glass_debris1","shared/glass_debris2","shared/glass_debris3","shared/glass_debris4","shared/glass_debris5" ],
+    "subtitle": "유리 파편이 떨어짐"
+  },
+  "bullet.impact_ice": {
+    "sounds": [ "shared/ice_bullet_impact01","shared/ice_bullet_impact02","shared/ice_bullet_impact03","shared/ice_bullet_impact04" ],
+    "subtitle": "얼음에 맞음"
+  },
+  "bullet.impact_stone": {
+    "sounds": [ "shared/solid_bullet_impact01","shared/solid_bullet_impact02","shared/solid_bullet_impact03","shared/solid_bullet_impact04" ],
+    "subtitle": "돌에 맞음"
+  },
+  "bullet.impact_concrete": {
+    "sounds": [ "shared/concrete_bullet_impact_01","shared/concrete_bullet_impact_02","shared/concrete_bullet_impact_03","shared/concrete_bullet_impact_04","shared/concrete_bullet_impact_05" ],
+    "subtitle": "콘크리트에 맞음"
+  },
+  "bullet.impact_tile": {
+    "sounds": [ "shared/tile_bullet_impact_01","shared/tile_bullet_impact_02","shared/tile_bullet_impact_03","shared/tile_bullet_impact_04","shared/tile_bullet_impact_05" ],
+    "subtitle": "타일에 맞음"
+  },
+  "bullet.break_concrete": {
+    "sounds": [ "shared/concrete_break01","shared/concrete_break02","shared/concrete_break03","shared/concrete_break04","shared/concrete_break05" ],
+    "subtitle": "콘크리트가 부서짐"
+  },
+  "bullet.impact_dirt": {
+    "sounds": [ "shared/dirt_bullet_impact01","shared/dirt_bullet_impact02","shared/dirt_bullet_impact03","shared/dirt_bullet_impact04" ],
+    "subtitle": "토양에 맞음"
+  },
+  "bullet.impact_cloth": {
+    "sounds": [ "shared/cloth_bullet_impact01","shared/cloth_bullet_impact02","shared/cloth_bullet_impact03","shared/cloth_bullet_impact04" ],
+    "subtitle": "섬유에 맞음"
+  },
+  "bullet.impact_mud": {
+    "sounds": [ "shared/mud_bullet_impact01","shared/mud_bullet_impact02","shared/mud_bullet_impact03","shared/mud_bullet_impact04" ],
+    "subtitle": "진흙에 맞음"
+  },
+  "bullet.impact_foliage": {
+    "sounds": [ "shared/foliage_bullet_impact01","shared/foliage_bullet_impact02","shared/foliage_bullet_impact03","shared/foliage_bullet_impact04" ],
+    "subtitle": "식생에 맞음"
+  },
+  "bullet.impact_metal_thick": {
+    "sounds": [ "shared/metal_thick_impact01","shared/metal_thick_impact02","shared/metal_thick_impact03","shared/metal_thick_impact04","shared/metal_thick_impact05","shared/metal_thick_impact06","shared/metal_thick_impact07","shared/metal_thick_impact08" ],
+    "subtitle": "두꺼운 금속에 맞음"
+  },
+  "bullet.impact_metal_thin": {
+    "sounds": [ "shared/metal_thin_impact01","shared/metal_thin_impact02","shared/metal_thin_impact03","shared/metal_thin_impact04","shared/metal_thin_impact05","shared/metal_thin_impact06","shared/metal_thin_impact07" ],
+    "subtitle": "얇은 금속에 맞음"
+  },
+  "bullet.impact_metal_grate": {
+    "sounds": [ "shared/metal_grate_impact01","shared/metal_grate_impact02","shared/metal_grate_impact03","shared/metal_grate_impact04","shared/metal_grate_impact05","shared/metal_grate_impact06","shared/metal_grate_impact07","shared/metal_grate_impact08" ],
+    "subtitle": "금속 판에 맞음"
+  },
+  "bullet.impact_metal_soft": {
+    "sounds": [ "shared/metal_soft_bullet_impact01","shared/metal_soft_bullet_impact02","shared/metal_soft_bullet_impact03","shared/metal_soft_bullet_impact04","shared/metal_soft_bullet_impact05","shared/metal_soft_bullet_impact06","shared/metal_soft_bullet_impact07","shared/metal_soft_bullet_impact08" ],
+    "subtitle": "연철에 맞음"
+  },
+  "bullet.impact_water": {
+    "sounds": [ "shared/water_bullet_impact01","shared/water_bullet_impact02","shared/water_bullet_impact03","shared/water_bullet_impact04" ],
+    "subtitle": "물에 맞음"
+  },
+  "bullet.impact_wood": {
+    "sounds": [ "shared/wood_bullet_impact01","shared/wood_bullet_impact02","shared/wood_bullet_impact03","shared/wood_bullet_impact04" ],
+    "subtitle": "나무에 맞음"
+  },
+  "bullet.impact_door": {
+    "sounds": [ "shared/impact_door1","shared/impact_door2","shared/impact_door3","shared/impact_door4","shared/impact_door5" ],
+    "subtitle": "나무 문에 맞음"
+  },
+  "bullet.impact_generic": {
+    "sounds": [ "shared/impact0","shared/impact1","shared/impact2","shared/impact3","shared/impact4","shared/impact5","shared/impact6","shared/impact7","shared/impact8","shared/impact9","shared/impact10","shared/impact11" ],
+    "subtitle": "총알이 표면에 맞음"
+  },
+  "bullet.break_wood": {
+    "sounds": [ "shared/wood_break01","shared/wood_break02","shared/wood_break03","shared/wood_break04", "shared/wood_break05" ],
+    "subtitle": "나무가 부서짐"
+  },
+  "bullet.impact_shield": {
+    "sounds": [ "shared/shield_bullet_impact01","shared/shield_bullet_impact02","shared/shield_bullet_impact03","shared/shield_bullet_impact04","shared/shield_bullet_impact05"  ],
+    "subtitle": "방탄 방패에 맞음"
+  },
+  "bullet.impact_head": {
+    "sounds": [ "shared/hit_head1","shared/hit_head2","shared/hit_head3","shared/hit_head4"  ],
+    "subtitle": "머리에 맞음"
+  },
+  "bullet.impact_body": {
+    "sounds": [ "shared/hit_body1","shared/hit_body2","shared/hit_body3","shared/hit_body4"  ],
+    "subtitle": "몸에 맞음"
+  },
+  "bullet.impact_flesh": {
+    "sounds": [ "shared/impact_flesh0","shared/impact_flesh1","shared/impact_flesh2","shared/impact_flesh3","shared/impact_flesh4","shared/impact_flesh5"  ],
+    "subtitle": "몸에 맞음"
+  },
+  "ui.hitmarker": {
+    "sounds": [ "shared/hitmarker"  ],
+    "subtitle": "명중 확인"
+  },
+  "ui.killmarker": {
+    "sounds": [ "shared/kill0","shared/kill1","shared/kill2","shared/kill3"  ],
+    "subtitle": "사살"
+  },
+  "ui.killsweetner": {
+    "sounds": [ "shared/hsmark"  ]
+  },
+  "ui.hsfeedback": {
+    "sounds": [ "shared/headshot_feedback"  ]
+  },
+  "ui.hitfeedback": {
+    "sounds": [ "shared/hit_feedback1","shared/hit_feedback2","shared/hit_feedback3","shared/hit_feedback4","shared/hit_feedback5","shared/hit_feedback6", "shared/hit_feedback7" ]
+  },
+  "lean_in": {
+    "sounds": [ "shared/lean_in1","shared/lean_in02","shared/lean_in03","shared/lean_in04","shared/lean_in05" ],
+    "subtitle": "총기가 견착됨"
+  },
+  "lean_out": {
+    "sounds": [ "shared/lean_out" ],
+    "subtitle": "총기 견착이 해제됨"
+  },
+  "selector": {
+    "sounds": [ "shared/fireselect" ],
+    "subtitle": "조정간이 변경됨"
+  },
+
+  "de.rtb": {
+    "sounds": [ "support/de_rtb" ],
+    "subtitle": "Ju 87 기지 귀환 무전"
+  },
+  "mg151.call": {
+    "sounds": [ "support/mg151_call" ],
+    "subtitle": "MG 151 기총소사 지원 요청 무전"
+  },
+  "mg151.go": {
+    "sounds": [ "support/mg151_go" ],
+    "subtitle": "MG 151 기총소사 승인 무전"
+  },
+  "stuka.call": {
+    "sounds": [ "support/stuka_call" ],
+    "subtitle": "Ju 87 급강하폭격 지원 요청 무전"
+  },
+  "stuka.go": {
+    "sounds": [ "support/stuka_go" ],
+    "subtitle": "Ju 87 급강하폭격 승인 무전"
+  },
+  "stuka.siren": {
+    "sounds": [ "support/stuka_siren" ],
+    "subtitle": "예리코의 나팔이 울림"
+  },
+  "ru.rtb": {
+    "sounds": [ "support/ru_rtb" ],
+    "subtitle": "기지 귀환 무전"
+  },
+  "vya23.call": {
+    "sounds": [ "support/vya23_call" ],
+    "subtitle": "ВЯ-23 기총소사 지원 요청 무전"
+  },
+  "vya23.go": {
+    "sounds": [ "support/vya23_go" ],
+    "subtitle": "ВЯ-23 기총소사 승인 무전"
+  },
+  "il2.call": {
+    "sounds": [ "support/il2_call" ],
+    "subtitle": "ИЛ-2 폭격 지원 요청 무전"
+  },
+  "il2.go": {
+    "sounds": [ "support/il2_go" ],
+    "subtitle": "ИЛ-2 폭격 승인 무전"
+  },
+  "bomb.drop": {
+    "sounds": [ "support/bomb_drop" ],
+    "subtitle": "폭탄이 떨어짐"
+  },
+
+
+  
+  "rocket_crack":          {"sounds": ["shared/rocket_crack"], "subtitle": "RPG 로켓 소리가 울림"},
+	"large_crack_0":         {"sounds": ["shared/large_crack_0"], "subtitle": "격발음이 울림"},
+	"large_crack_1":         {"sounds": ["shared/large_crack_1"], "subtitle": "격발음이 울림"},
+	"large_crack_2":         {"sounds": ["shared/large_crack_2"], "subtitle": "격발음이 울림"},
+	"large_crack_3":         {"sounds": ["shared/large_crack_3"], "subtitle": "격발음이 울림"},
+	"large_crack_4":         {"sounds": ["shared/large_crack_4"], "subtitle": "격발음이 울림"},
+	"large_crack_w":         {"sounds": ["shared/large_crack_w"], "subtitle": "격발음이 울림"},
+	"medlarge_crack_0":      {"sounds": ["shared/medlarge_crack_0"], "subtitle": "격발음이 울림"},
+	"medlarge_crack_1":      {"sounds": ["shared/medlarge_crack_1"], "subtitle": "격발음이 울림"},
+	"medlarge_crack_2":      {"sounds": ["shared/medlarge_crack_2"], "subtitle": "격발음이 울림"},
+	"medlarge_crack_3":      {"sounds": ["shared/medlarge_crack_3"], "subtitle": "격발음이 울림"},
+	"medlarge_crack_4":      {"sounds": ["shared/medlarge_crack_4"], "subtitle": "격발음이 울림"},
+	"medlarge_crack_w":      {"sounds": ["shared/medlarge_crack_w"], "subtitle": "격발음이 울림"},
+	"med_crack_0":           {"sounds": ["shared/med_crack_0"], "subtitle": "격발음이 울림"},
+	"med_crack_1":           {"sounds": ["shared/med_crack_1"], "subtitle": "격발음이 울림"},
+	"med_crack_2":           {"sounds": ["shared/med_crack_2"], "subtitle": "격발음이 울림"},
+	"med_crack_3":           {"sounds": ["shared/med_crack_3"], "subtitle": "격발음이 울림"},
+	"med_crack_4":           {"sounds": ["shared/med_crack_4"], "subtitle": "격발음이 울림"},
+	"med_crack_w":           {"sounds": ["shared/med_crack_w"], "subtitle": "격발음이 울림"},
+	"smallmed_crack_0":      {"sounds": ["shared/smallmed_crack_0"], "subtitle": "격발음이 울림"},
+	"smallmed_crack_1":      {"sounds": ["shared/smallmed_crack_1"], "subtitle": "격발음이 울림"},
+	"smallmed_crack_2":      {"sounds": ["shared/smallmed_crack_2"], "subtitle": "격발음이 울림"},
+	"smallmed_crack_3":      {"sounds": ["shared/smallmed_crack_3"], "subtitle": "격발음이 울림"},
+	"smallmed_crack_4":      {"sounds": ["shared/smallmed_crack_4"], "subtitle": "격발음이 울림"},
+	"smallmed_crack_w":      {"sounds": ["shared/smallmed_crack_w"], "subtitle": "격발음이 울림"},
+	"small_crack_0":         {"sounds": ["shared/small_crack_0"], "subtitle": "격발음이 울림"},
+	"small_crack_1":         {"sounds": ["shared/small_crack_1"], "subtitle": "격발음이 울림"},
+	"small_crack_2":         {"sounds": ["shared/small_crack_2"], "subtitle": "격발음이 울림"},
+	"small_crack_3":         {"sounds": ["shared/small_crack_3"], "subtitle": "격발음이 울림"},
+	"small_crack_4":         {"sounds": ["shared/small_crack_4"], "subtitle": "격발음이 울림"},
+	"small_crack_w":         {"sounds": ["shared/small_crack_w"], "subtitle": "격발음이 울림"}
+
+}

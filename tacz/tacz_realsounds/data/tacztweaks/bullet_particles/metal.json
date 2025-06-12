@@ -1,0 +1,43 @@
+{
+    "type": "block",
+    "blocks": [
+        "#tacztweaks:sounds/metal_grate",
+        "#tacztweaks:sounds/metal_thick",
+        "#tacztweaks:sounds/metal_thin",
+        "#tacztweaks:sounds/metal_soft"
+    ],
+    "hit": [
+        {
+            "particle": "minecraft:block %s",
+            "count": 5,
+            "speed": 8,
+            "force": true
+        },
+        {
+            "particle": "minecraft:electric_spark",
+            "count": 2,
+            "speed": 0.7,
+            "force": true
+        }
+    ],
+    "pierce": [
+        {
+            "particle": "minecraft:block %s",
+            "count": 10,
+            "speed": 0.08,
+            "force": true
+        },
+        {
+            "particle": "minecraft:electric_spark",
+            "count": 4,
+            "speed": 0.2,
+            "force": true
+        }
+    ],
+    "break": {
+        "particle": "minecraft:block %s",
+        "count": 15,
+        "speed": 0.3,
+        "force": true
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "block",
+  "target": {
+    "type": "ammo",
+    "values": [
+      "tacz:12g"
+    ]
+  },
+  "blocks": [
+    "#minecraft:wooden_doors",
+    "#minecraft:wooden_trapdoors"
+  ],
+  "block_break": {
+    "type": "dynamic_damage",
+    "multiplier": 1.3
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "outdoors",
+  "target": {
+    "type": "ammo",
+    "values": [
+      "tacz:22lr",
+      "ea:357sig",
+      "ea:9x18",
+      "ea:380auto",
+      "tacz:9mm",
+      "ea:9x21",
+      "tacz:46x30",
+      "tacz:45acp",
+      "ea:32acp",
+      "tacz:58x42",
+      "ea:44magnum",
+      "ea:10mm",
+      "ea:45casull",
+      "ea:44special",
+      "ea:40sw",
+      "tacz:57x28"
+
+    ]
+  },
+  "sounds": [
+    {
+      "threshold": 30.0,
+      "sound": {
+        "sound": "minecraft:small_crack_0",
+        "volume": 7.0
+      }
+    },
+    {
+      "threshold": 50.0,
+      "sound": {
+        "sound": "minecraft:small_crack_1",
+        "volume": 9.0
+      }
+    },
+    {
+      "threshold": 80,
+      "sound": {
+        "sound": "minecraft:small_crack_2",
+        "volume": 14.0
+      }
+    },
+    {
+      "threshold": 120,
+      "sound": {
+        "sound": "minecraft:small_crack_3",
+        "volume": 18.0
+      }
+    },
+    {
+      "threshold": 180,
+      "sound": {
+        "sound": "minecraft:small_crack_4",
+        "volume": 20.0
+      }
+    }
+  ]
+}

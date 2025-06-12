@@ -1,0 +1,16 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:concrete"
+  ],
+  "hit": {
+    "sound": "bullet.impact_concrete"
+  },
+  "pierce": {
+    "sound": "bullet.impact_concrete"
+  },
+  "break": {
+    "sound": "bullet.break_concrete",
+    "volume": 2
+  }
+}

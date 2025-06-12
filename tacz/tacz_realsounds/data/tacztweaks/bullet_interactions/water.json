@@ -1,0 +1,10 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:water"
+  ],
+  "pierce": {
+    "type": "damage",
+    "damage_falloff": 8
+  }
+}

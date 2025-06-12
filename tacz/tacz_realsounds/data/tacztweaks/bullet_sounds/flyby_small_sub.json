@@ -1,0 +1,40 @@
+{
+  "type": "whizz",
+  "target": {
+    "type": "speed",
+    "values": [
+      {
+        "min": 20.0
+      }
+    ],
+
+    "type": "ammo",
+    "values": [
+      "tacz:22lr",
+      "ea:357sig",
+      "ea:9x18",
+      "ea:380auto",
+      "tacz:9mm",
+      "ea:9x21",
+      "tacz:46x30",
+      "tacz:45acp",
+      "ea:32acp",
+      "tacz:58x42",
+      "ea:44magnum",
+      "ea:10mm",
+      "ea:45casull",
+      "ea:44special",
+      "ea:40sw",
+      "tacz:57x28"
+    ]
+  },
+  "sounds": [
+    {
+      "threshold": 5.0,
+      "sound": {
+        "sound": "minecraft:9.flyby",
+        "volume": 1
+      }
+    }
+  ]
+}

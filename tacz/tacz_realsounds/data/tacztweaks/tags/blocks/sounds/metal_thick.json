@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#s_a_b:basic",
+        "#s_a_b:cut",
+        "#s_a_b:light",
+        "#s_a_b:hard",
+        "minecraft:diamond_block",
+        "minecraft:netherite_block"
+    ]
+}

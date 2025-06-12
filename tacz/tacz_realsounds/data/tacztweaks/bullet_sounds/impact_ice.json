@@ -1,0 +1,15 @@
+{
+  "type": "block",
+  "blocks": [
+    "#minecraft:ice"
+  ],
+  "hit": {
+    "sound": "bullet.impact_ice"
+  },
+  "pierce": {
+    "sound": "bullet.impact_ice"
+  },
+  "break": {
+    "sound": "bullet.break_glass"
+  }
+}

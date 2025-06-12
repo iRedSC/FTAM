@@ -1,0 +1,53 @@
+{
+  "type": "block",
+  "target": {
+    "type": "ammo",
+    "values": [
+      "tacz:762x39",
+      "ea:366tkm",
+      "tacz:308",
+      "ea:300winmag",
+      "ea:602x41",
+      "ea:500sw",
+      "ea:50beowulf",
+      "ea:410bore",
+      "hamster:medium_ammo",
+      "tacz:50ae",
+      "tacz:357mag",
+      "tacz:762x39",
+      "ea:366tkm",
+      "tacz:308",
+      "tacz:762x54",
+      "ea:408cheytac",
+      "tacz:338",
+      "hamster:long_ammo",
+      "tacz:30_06",
+      "ea:127x55",
+      "ea:416barrett",
+      "ea:300winmag",
+      "ea:602x41",
+      "ea:500sw",
+      "ea:50beowulf",
+      "ea:410bore",
+      "hamster:medium_ammo",
+      "tacz:50ae",
+      "tacz:357mag",
+      "tacz:556x45",
+      "ea:223rm",
+      "ea:545x39",
+      "tacz:762x25",
+      "ea:22hornet",
+      "ea:300blk",
+      "ea:9x39",
+      "hamster:compact_ammo"
+    ]
+  },
+
+  "blocks": [
+    "#tacztweaks:concrete"
+  ],
+  "block_break": {
+    "type": "dynamic_damage",
+    "multiplier": 0.01
+  }
+}

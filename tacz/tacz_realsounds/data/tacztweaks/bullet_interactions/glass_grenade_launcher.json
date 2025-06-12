@@ -1,0 +1,21 @@
+{
+  "type": "block",
+  "target": {
+    "type": "ammo",
+    "values": [
+      "tacz:40mm"
+    ]
+  },
+  "blocks": [
+    "#tacztweaks:sounds/glass",
+    "#forge:glass",
+    "#forge:glass_pane"
+  ],
+  "block_break": {
+    "type": "dynamic_damage"
+  },
+  "pierce": {
+    "type": "damage",
+    "condition": "always"
+  }
+}

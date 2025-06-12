@@ -1,0 +1,37 @@
+{
+  "type": "block",
+  "target": {
+
+    "type": "ammo",
+    "values": [
+      "tacz:50bmg",
+      "bggp:105x372r",
+      "bggp:6x105_art",
+      "bggp:120x570nato",
+      "bggp:40x365r",
+      "ea:127x55",
+      "ea:416barrett"
+    ]
+  },
+  "blocks": [
+    "#tacztweaks:solid_hcal",
+    "#tacztweaks:sounds/wood",
+    "#minecraft:stairs",
+    "#minecraft:slabs",
+    "#minecraft:doors",
+    "#minecraft:trapdoors",
+    "#minecraft:fences",
+    "#minecraft:fence_gates",
+    "#tacztweaks:sounds/metal_thin",
+    "#tacztweaks:sounds/metal_grate",
+    "#tacztweaks:sounds/metal_soft"
+  ],
+  "block_break": {
+    "type": "dynamic_damage",
+    "multiplier": 0.2
+  },
+  "pierce": {
+    "type": "damage",
+    "damage_multiplier": 0.7
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:sounds/glass",
+    "#forge:glass",
+    "#forge:glass_pane"
+  ],
+  "block_break": {
+    "type": "dynamic_damage",
+    "multiplier": 0.5
+  },
+  "pierce": {
+    "type": "damage",
+    "damage_falloff": 0.5
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:stones",
+    "#tacztweaks:terracotta",
+    "#tacztweaks:ores",
+    "#tacztweaks:mod/bricks"
+  ],
+  "hit": {
+    "sound": "bullet.impact_stone"
+  },
+  "pierce": {
+    "sound": "bullet.impact_concrete"
+  },
+  "break": {
+    "sound": "bullet.impact_concrete"
+  }
+}

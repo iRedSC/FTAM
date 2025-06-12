@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/stick"
+  },
+  "overrides": [
+
+    { "predicate": { "custom_model_data":1001 }, "model": "item/materials/iron_rod" },
+    { "predicate": { "custom_model_data":1002 }, "model": "item/materials/polymer" },
+    { "predicate": { "custom_model_data":1003 }, "model": "item/materials/gun_grip_metal" },
+    { "predicate": { "custom_model_data":1004 }, "model": "item/materials/gun_grip_wood" },
+    { "predicate": { "custom_model_data":1005 }, "model": "item/materials/gun_grip_polymer" },
+    { "predicate": { "custom_model_data":1006 }, "model": "item/materials/gun_receiver" },
+    { "predicate": { "custom_model_data":1007 }, "model": "item/materials/gun_receiver_polymer" },
+    { "predicate": { "custom_model_data":1008 }, "model": "item/materials/gun_handguard_metal" },
+    { "predicate": { "custom_model_data":1009 }, "model": "item/materials/gun_handguard_polymer" },
+    { "predicate": { "custom_model_data":1010 }, "model": "item/materials/gun_handguard_wood" },
+    { "predicate": { "custom_model_data":1011 }, "model": "item/materials/gun_stock_metal" },
+    { "predicate": { "custom_model_data":1012 }, "model": "item/materials/gun_stock_polymer" },
+    { "predicate": { "custom_model_data":1013 }, "model": "item/materials/gun_stock_wood" },
+    { "predicate": { "custom_model_data":1014 }, "model": "item/materials/gun_slide" },
+    { "predicate": { "custom_model_data":1015 }, "model": "item/materials/gun_slide_polymer" },
+    { "predicate": { "custom_model_data":1016 }, "model": "item/materials/lead" },
+    { "predicate": { "custom_model_data":1017 }, "model": "item/materials/brass" },
+    { "predicate": { "custom_model_data":1018 }, "model": "item/materials/casing_brass" },
+    { "predicate": { "custom_model_data":1019 }, "model": "item/materials/casing_copper" },
+    { "predicate": { "custom_model_data":1020 }, "model": "item/materials/casing_iron" },
+    { "predicate": { "custom_model_data":1021 }, "model": "item/materials/head_iron" },
+    { "predicate": { "custom_model_data":1022 }, "model": "item/materials/head_copper" },
+    { "predicate": { "custom_model_data":1023 }, "model": "item/materials/head_brass" },
+    { "predicate": { "custom_model_data":1024 }, "model": "item/materials/propellant" },
+    { "predicate": { "custom_model_data":1025 }, "model": "item/materials/primer" },
+    { "predicate": { "custom_model_data":1026 }, "model": "item/materials/gun_barrel" },
+    { "predicate": { "custom_model_data":1027 }, "model": "item/materials/gun_trigger_group" },
+    { "predicate": { "custom_model_data":1028 }, "model": "item/materials/lens_group" }
+  ]
+  
+}

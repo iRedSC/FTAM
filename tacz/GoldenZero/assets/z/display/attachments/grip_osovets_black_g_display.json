@@ -1,9 +1,0 @@
-{
-  "slot": "z:attachment/slot/grip_osovets_black_g_slot",
-  "model": "z:attachment/grip_osovets_black_g",
-  "texture": "z:attachment/uv/grip_osovets_black_g",
-  "sounds": {
-    "install": "tacz:attachments/attachment_general_b",
-    "uninstall": "tacz:attachments/attachment_general_uninstall"
-  }
-}

@@ -1,0 +1,22 @@
+{
+    "type": "block",
+    "blocks": ["#tacztweaks:sounds/glass"],
+    "hit": {
+        "particle": "minecraft:block %s 5",
+        "count": 2,
+        "speed": 0.15,
+        "force": true
+    },
+    "pierce": {
+        "particle": "minecraft:block %s 5",
+        "count": 3,
+        "speed": 0.2,
+        "force": true
+    },
+    "break": {
+        "particle": "minecraft:block %s 5",
+        "count": 7,
+        "speed": 0.2,
+        "force": true
+    }
+}

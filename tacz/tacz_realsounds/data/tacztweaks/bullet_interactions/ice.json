@@ -1,0 +1,12 @@
+{
+	"type": "block",
+	"blocks": ["minecraft:ice"],
+	"block_break": {
+		"type": "dynamic_damage",
+		"multiplier": 0.1
+	},
+	"pierce": {
+		"type": "damage",
+		"damage_falloff": 2
+	}
+}

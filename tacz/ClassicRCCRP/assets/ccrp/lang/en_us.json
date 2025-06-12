@@ -2,9 +2,12 @@
     "pack.ccrp.name": "§3§nC.C.R.P | Cima's Classic Renovation v1.1.1",
     "pack.ccrp.desc": "§cOld guns New life.",
 
+    "ccrp.gun.keltec_p50.name": "KelTec P50",
+
     "ccrp.gun.honeybadger.desc": "§dTier 4",
     "ccrp.gun.mp5k.desc": "§dTier 4",
     "ccrp.gun.spas_12.desc": "§dTier 4",
+    "ccrp.gun.keltec_p50.desc": "§dTier 4",
 
     "ccrp.gun.p90.desc": "§6Tier 5",
 
@@ -17,7 +20,7 @@
 
     "ccrp.gun.mp9_thunder.desc": "Thunder Tech",
     "ccrp.gun.block_17.desc": "Bocchi is kawaii!",
-    "ccrp.gun.keltec_p50.desc": "ATF is WATCHING you",
+
     "ccrp.gun.aug_para.desc": "Easy conversion, no reduction in firepower",
     "ccrp.gun.aug_hbar.desc": "Suppress the enemy  +10",
     "ccrp.gun.p90_paw.desc": "Please listen to his sound of tearing armor and flesh and blood apart",
@@ -55,7 +58,7 @@
     "ccrp.gun.v308.desc": "Vector produced by Cima Arms Modification Group, shooting 7.62x51mmbullets.\n§6Rättvisa means justice",
     "ccrp.gun.vector9.desc": "Small body, Great fire-power.",
 
-    "ccrp.gun.mp5k_pdw.desc": "With a firing rate of up to 900 rounds per minute, it can easily tear apart any flesh and blood that dares to block the way!",
+    "ccrp.gun.mp5k_pdw.desc": "§dTier 4",
     "ccrp.gun.rd704.desc": "§3C.C.R.P§f x §4Rhodes Koei\n§fCheck your ammo anytime! ",
     "ccrp.attachment.muzzle_apc_9k_silencer.desc": "Longer barrel, longer range.",
     "ccrp.gun.glock20gen5mos.desc": "§3C.C.R.P§f x §bAstralLin\n§fLike a fierce mastiff dog",
@@ -90,7 +93,7 @@
     "ccrp.gun.mp9_thunder.name": "§cMP9 | Thunder",
     "ccrp.ammo.thunder_cell.name": "Thunder Cell",
     "ccrp.gun.block_17.name": "§cGlock17 | BLOCK",
-    "ccrp.gun.keltec_p50.name": "§3KelTec | P50",
+
     "ccrp.gun.aug_para.name": "§3Steyr | AUG Para",
     "ccrp.gun.aug_hbar.name": "§3Steyr | AUG HBAR",
     "ccrp.gun.x95r.name": "§3IWI | X95",
@@ -131,7 +134,7 @@
     "ccrp.gun.v308.name": "§3CAM Group | Rättvisa V308",
     "ccrp.gun.vector9.name": "§3KRISS | Vector 9mm",
     "ccrp.gun.mp5k.name": "§3HK | MP5K",
-    "ccrp.gun.mp5k_pdw.name": "§3HK | MP5K PDW",
+    "ccrp.gun.mp5k_pdw.name": "MP5K PDW",
     "ccrp.gun.rd704.name": "§3Rifle Dynamics | RD704",
     "ccrp.gun.glock20gen5mos.name": "§3Glock | G20 gen5 mos",
     "ccrp.gun.glock40gen5mos.name": "§3Glock | G40 gen5 mos",

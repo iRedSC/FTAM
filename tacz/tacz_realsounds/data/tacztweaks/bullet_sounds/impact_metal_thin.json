@@ -1,0 +1,15 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:sounds/metal_thin"
+  ],
+  "hit": {
+    "sound": "bullet.impact_metal_thin"
+  },
+  "pierce": {
+    "sound": "bullet.impact_metal_thin"
+  },
+  "break": {
+    "sound": "bullet.impact_metal_soft"
+  }
+}

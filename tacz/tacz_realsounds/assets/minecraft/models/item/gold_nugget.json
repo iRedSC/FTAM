@@ -1,0 +1,24 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "minecraft:item/gold_nugget"
+    },
+    "overrides": [
+
+        {"predicate": {"custom_model_data":1}, "model":"item/weapons/util/m24"},
+		{"predicate": {"custom_model_data":2}, "model":"item/weapons/util/rgd33"},
+		{"predicate": {"custom_model_data":3}, "model":"item/weapons/util/n39"},
+		{"predicate": {"custom_model_data":4}, "model":"item/weapons/util/rgd2"},
+		{"predicate": {"custom_model_data":5}, "model":"item/weapons/util/plane_bomb"},
+
+        { "predicate": { "custom_model_data":10010 }, "model": "item/misc/792_57" },
+        { "predicate": { "custom_model_data":10011 }, "model": "item/misc/762_54r" },
+        { "predicate": { "custom_model_data":10012 }, "model": "item/misc/9_19" },
+        { "predicate": { "custom_model_data":10013 }, "model": "item/misc/762_25" },
+        { "predicate": { "custom_model_data":10014 }, "model": "item/misc/792_33" },
+
+        { "predicate": { "custom_model_data":10100 }, "model": "item/weapons/pzfst/pzfst_rocket" }
+        
+        
+    ]
+}

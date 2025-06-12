@@ -1,0 +1,16 @@
+{
+  "type": "block",
+  "target": {
+    "type": "ammo",
+    "values": [
+      "tacz:12g"
+    ]
+  },
+  "blocks": [
+    "#tacztweaks:wood_fragile"
+  ],
+  "block_break": {
+    "type": "dynamic_damage",
+    "multiplier": 0.3
+  }
+}

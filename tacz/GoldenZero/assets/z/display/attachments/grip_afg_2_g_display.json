@@ -1,9 +1,0 @@
-{
-  "slot": "z:attachment/slot/grip_afg_2_g_slot",
-  "model": "z:attachment/grip_afg_2_g_geo",
-  "texture": "z:attachment/uv/grip_afg_2_g",
-  "sounds": {
-    "install": "tacz:attachments/attachment_general_b",
-    "uninstall": "tacz:attachments/attachment_general_uninstall"
-  }
-}

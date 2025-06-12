@@ -1,0 +1,14 @@
+{
+  "type": "block",
+  "blocks": [
+    "#minecraft:wooden_doors",
+    "#minecraft:wooden_trapdoors"
+  ],
+  "block_break": {
+    "type": "dynamic_damage"
+  },
+  "pierce": {
+    "type": "damage",
+    "damage_falloff": 5
+  }
+}

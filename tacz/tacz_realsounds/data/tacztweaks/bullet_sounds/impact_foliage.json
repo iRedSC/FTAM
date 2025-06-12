@@ -1,0 +1,15 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:plant"
+  ],
+  "hit": {
+    "sound": "bullet.impact_foliage"
+  },
+  "pierce": {
+    "sound": "bullet.impact_foliage"
+  },
+  "break": {
+    "sound": "bullet.impact_foliage"
+  }
+}

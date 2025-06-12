@@ -1,0 +1,53 @@
+{
+  "type": "outdoors",
+  "target": {
+    "type": "ammo",
+    "values": [
+      "tacz:50bmg",
+      "bggp:105x372r",
+      "bggp:6x105_art",
+      "bggp:120x570nato",
+      "bggp:40x365r",
+      "ea:127x55",
+      "ea:416barrett"
+
+    ]
+  },
+  "sounds": [
+    {
+      "threshold": 100.0,
+      "sound": {
+        "sound": "minecraft:medlarge_crack_0",
+        "volume": 7.0
+      }
+    },
+    {
+      "threshold": 150.0,
+      "sound": {
+        "sound": "minecraft:medlarge_crack_1",
+        "volume": 9.0
+      }
+    },
+    {
+      "threshold": 190,
+      "sound": {
+        "sound": "minecraft:medlarge_crack_2",
+        "volume": 14.0
+      }
+    },
+    {
+      "threshold": 220,
+      "sound": {
+        "sound": "minecraft:medlarge_crack_3",
+        "volume": 18.0
+      }
+    },
+    {
+      "threshold": 250,
+      "sound": {
+        "sound": "minecraft:medlarge_crack_4",
+        "volume": 20.0
+      }
+    }
+  ]
+}

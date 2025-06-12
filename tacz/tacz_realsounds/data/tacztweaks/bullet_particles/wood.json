@@ -1,0 +1,38 @@
+{
+    "type": "block",
+    "blocks": ["#tacztweaks:sounds/wood"],
+    "hit": [
+        {
+            "particle": "minecraft:block %s",
+            "speed": 5,
+            "count": 10,
+            "force": true
+        },
+        {
+            "particle": "minecraft:ash",
+            "count": 10,
+            "speed": 0.15,
+            "force": true
+        }
+    ],
+    "pierce": [
+        {
+            "particle": "minecraft:block %s",
+            "count": 5,
+            "speed": 8,
+            "force": true
+        },
+        {
+            "particle": "blocky_siege:wooden_shrapnel_particle",
+            "count": 1,
+            "speed": 0.3,
+            "force": true
+        }
+    ],
+    "break": {
+        "particle": "minecraft:block %s",
+        "count": 15,
+        "speed": 0.3,
+        "force": true
+    }
+}
