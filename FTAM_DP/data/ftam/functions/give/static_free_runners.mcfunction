@@ -1,1 +1,0 @@
-give @s mekanism:free_runners_armored{display:{Name:'{"text":"Static Freerunners","color":"light_purple","italic":false}',Lore:['{"text":"Premium Item","color":"dark_red","italic":false}','{"text":"When running, static charge will","color":"gray","italic":false}','{"text":"power your gear.","color":"gray","italic":false}']},static:true} 1
