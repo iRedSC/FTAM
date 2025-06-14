@@ -7,14 +7,15 @@
     "classicr.gun.colt_python.desc": "§aTier 2",
 
     "classicr.gun.fn_fal.desc": "§bTier 3",
+    "classicr.gun.mp7.desc": "§bTier 3\n§4[Black Market]",
 
-    "classicr.gun.mrad.desc": "§cTier 6",
+    "classicr.gun.mrad.desc": "§cTier 6\n§4[Black Market]",
 
     "classicr.gun.ngsw_r_renewed.desc": "Born from SIG SAUER, always classic.",
     "classicr.gun.qbz191_renewed.desc": "The People's Army is Loyal to the Party.",
     "classicr.gun.udp_9.desc": "9mm rifle?no,it's HUGE glock.",
     "classicr.gun.m24_renewed.desc": "What kind of bullets do you like? oh,I forgot that you can never speak again!",
-    "classicr.gun.mp7.desc": "You seem to be wearing cardboard to face me!",
+
     "classicr.gun.mp9.desc": "Don't worry about using it, your shoulders won't hurt.",
     "classicr.attachment.grip_rvg_railless.desc": "Classic, easy to use, but never outdated.",
     "classicr.gun.mp9_white.desc": "§c§lBear my anger!",
@@ -69,7 +70,7 @@
     "classicr.gun.ngsw_r_renewed.name": "M7 Battle Rifle",
     "classicr.gun.qbz191_renewed.name": "QBZ-192 Assault Rifle",
     "classicr.gun.udp_9.name": "UDP-9 PDW",
-    "classicr.gun.mp7.name": "HK MP7 SMG",
+    "classicr.gun.mp7.name": "MP7",
     "classicr.attachment.grip_rvg_railless.name": "RVG grip(without Rail clamp)",
     "classicr.gun.mp9.name": "MP9 SMG",
     "classicr.gun.mp9_white.name": "§lThe Albedo Flame",

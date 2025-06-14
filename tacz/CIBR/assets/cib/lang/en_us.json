@@ -82,6 +82,7 @@
     "cib.gun.negev.desc": "§dTier 4",
 
     "cib.gun.sv98.desc": "§6Tier 5",
+    "cib.gun.cs_ak47.desc": "§6Tier 5\n§4[Black Market]",
 
     "cib.gun.evo3.desc": "§cTier 6",
     "cib.gun.cs_awp.desc": "§cTier 6",
@@ -142,7 +143,7 @@
     "cib.gun.galilace32.desc": "Classic version of 7.62X39",
     "cib.gun.qbz191.desc": "The highly anticipated 191 series gun family",
     "cib.gun.widow.desc": "Engineer Gaming!!!!!!!!",
-    "cib.gun.cs_ak47.desc": "The King of Guns! Classics never go out of style!",
+
     "cib.gun.mk18.desc": "one for one————John Price（Call of Duty: Modern Warfare）",
     "cib.gun.type56.desc": "Serve the people",
     "cib.gun.type73.desc": "This is a modification from PKM?",

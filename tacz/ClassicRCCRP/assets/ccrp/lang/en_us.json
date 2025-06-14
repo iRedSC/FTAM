@@ -8,6 +8,7 @@
     "ccrp.gun.mp5k.desc": "§dTier 4",
     "ccrp.gun.spas_12.desc": "§dTier 4",
     "ccrp.gun.keltec_p50.desc": "§dTier 4",
+    "ccrp.gun.m27_iar.desc": "§dTier 4\n§4[Black Market]",
 
     "ccrp.gun.p90.desc": "§6Tier 5",
 
@@ -38,7 +39,7 @@
     "ccrp.gun.am17.desc": "Never say she's a product of archaeology",
     "ccrp.gun.mcx_virtus.desc": "The Beginning of a Legendary Gun Family",
     "ccrp.attachment.stock_hera_cqr_gen2.desc": "Looks like alien technology!",
-    "ccrp.gun.m27_iar.desc": "Navy is giving us strange names again...",
+
     "ccrp.gun.m38_spr.desc": "Accurate, fatal... huh? Has this kind of introduction already been used?",
     "ccrp.gun.hk416c.desc": "Short and cute.",
     "ccrp.gun.m305a.desc": "Norinco's classic renovation",
@@ -110,7 +111,7 @@
     "ccrp.gun.mp5_sd.name": "§3MP5SD Silenced SMG",
     "ccrp.gun.am17.name": "§3AM-17 SBR",
     "ccrp.gun.mcx_virtus.name": "§3MCX Virtus",
-    "ccrp.gun.m27_iar.name": "§3M27 IAR",
+    "ccrp.gun.m27_iar.name": "M27 IAR",
     "ccrp.gun.m38_spr.name": "§3M38 SPR",
     "ccrp.gun.hk416c.name": "§3HK416C",
     "ccrp.gun.m305a.name": "§3Norinco | M305A",
