@@ -1,9 +1,0 @@
-{
-  "type": "block",
-  "blocks": [
-    "#tacztweaks:sounds/dirt"
-  ],
-  "hit": {
-    "sound": "bullet.impact_dirt"
-  }
-}

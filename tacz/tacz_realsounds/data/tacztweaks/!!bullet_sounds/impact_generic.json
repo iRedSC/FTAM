@@ -1,0 +1,12 @@
+{
+  "type": "block",
+  "hit": {
+    "sound": "bullet.impact_generic"
+  },
+  "pierce": {
+    "sound": "bullet.impact_generic"
+  },
+  "break": {
+    "sound": "bullet.break_concrete"
+  }
+}

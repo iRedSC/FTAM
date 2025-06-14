@@ -1,9 +1,0 @@
-{
-  "type": "block",
-  "blocks": [
-    "#tacztweaks:sounds/metal_thick"
-  ],
-  "hit": {
-    "sound": "bullet.impact_metal_thick"
-  }
-}

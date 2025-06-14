@@ -1,9 +1,0 @@
-{
-  "type": "block",
-  "blocks": [
-    "#tacztweaks:sounds/cloth"
-  ],
-  "hit": {
-    "sound": "bullet.impact_cloth"
-  }
-}

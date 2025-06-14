@@ -7,27 +7,27 @@
     "bullet": {
         "life": 1.1,
         "bullet_amount": 1,
-        "damage": 75,
+        "damage": 40,
         "tracer_count_interval": 0,
         "extra_damage": {
-            "armor_ignore": 0.75,
-            "head_shot_multiplier": 4,
+            "armor_ignore": 0.8,
+            "head_shot_multiplier": 2.5,
             "damage_adjust": [
                 { "distance": 75, "damage": 40 },
-                { "distance": 150, "damage": 50 },
-                { "distance": "infinite", "damage": 75 }
+                { "distance": 150, "damage": 40 },
+                { "distance": "infinite", "damage": 40 }
             ]
         },
         "speed": 600,
         "gravity": 0.0,
-        "knockback": 0.3,
-        "friction": 0.03,
+        "knockback": 4,
+        "friction": 0.0,
         "ignite": false,
         "pierce": 5,
         "explosion": {
-            "explode": false,
-            "damage": 140,
-            "radius": 1.8,
+            "explode": true,
+            "damage": 20,
+            "radius": 3,
             "knockback": true,
             "delay": 1
         }
@@ -43,9 +43,9 @@
             "tactical": 4.07
         }
     },
-    "draw_time": 3.03,
-    "put_away_time": 2.87,
-    "aim_time": 1.23,
+    "draw_time": 1.03,
+    "put_away_time": 1.87,
+    "aim_time": 0.5,
     "sprint_time": 0.2,
     "bolt_action_time": 1.43,
     "weight": 10.7,

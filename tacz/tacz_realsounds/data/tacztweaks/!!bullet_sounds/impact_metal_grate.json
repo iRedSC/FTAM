@@ -1,0 +1,15 @@
+{
+  "type": "block",
+  "blocks": [
+    "#tacztweaks:sounds/metal_grate"
+  ],
+  "hit": {
+    "sound": "bullet.impact_metal_grate"
+  },
+  "pierce": {
+    "sound": "bullet.impact_metal_grate"
+  },
+  "break": {
+    "sound": "bullet.impact_metal_soft"
+  }
+}

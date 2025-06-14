@@ -1,0 +1,21 @@
+{
+  "type": "whizz",
+  "target": {
+
+    "type": "gun",
+    "values": [
+      "suffuse:aiyasinrpg",
+      "tacz:rpg7",
+      "rcp:rpg26"
+    ]
+  },
+  "sounds": [
+    {
+      "threshold": 8.0,
+      "sound": {
+        "sound": "minecraft:hcal.flyby",
+        "volume": 1
+      }
+    }
+  ]
+}

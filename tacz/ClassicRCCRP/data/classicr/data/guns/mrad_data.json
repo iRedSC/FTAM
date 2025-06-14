@@ -1,5 +1,5 @@
 {
-    "ammo": "tacz:416barrett",
+    "ammo": "tacz:50bmg",
     "ammo_amount": 1,
     "extended_mag_ammo_amount": [2, 2, 2],
     "bolt": "manual_action",
@@ -7,15 +7,15 @@
     "bullet": {
         "life": 0.9,
         "bullet_amount": 1,
-        "damage": 55,
+        "damage": 35,
         "tracer_count_interval": 0,
         "extra_damage": {
-            "armor_ignore": 0.85,
-            "head_shot_multiplier": 2.5,
+            "armor_ignore": 0.8,
+            "head_shot_multiplier": 2,
             "damage_adjust": [
-                { "distance": 80, "damage": 55 },
-                { "distance": 160, "damage": 43 },
-                { "distance": "infinite", "damage": 31 }
+                { "distance": 80, "damage": 35 },
+                { "distance": 160, "damage": 35 },
+                { "distance": "infinite", "damage": 35 }
             ]
         },
         "speed": 450,
@@ -43,9 +43,9 @@
             "tactical": 2.67
         }
     },
-    "draw_time": 3,
-    "put_away_time": 2.75,
-    "aim_time": 1.25,
+    "draw_time": 1,
+    "put_away_time": 1.75,
+    "aim_time": 0.25,
     "sprint_time": 0.2,
     "bolt_action_time": 1.2667,
     "fire_mode": ["semi"],
