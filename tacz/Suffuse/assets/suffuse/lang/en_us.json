@@ -19,7 +19,7 @@
     "suffuse.gun.aks74u.name": "AKs74u Assault Rifle",
     "suffuse.gun.ash12.name": "ASH12 Assault Rifle",
     "suffuse.gun.viper2011.name": "Viper 2011 Pistol",
-    "suffuse.gun.aw50.name": "Accuracy International AW-50  Anti-Material Rifle",
+    "suffuse.gun.aw50.name": "AW-50 Anti-Material Rifle",
     "suffuse.gun.tt33.name": "TT-33 Pistol",
     "suffuse.gun.trapper50cal.name": "Traditions Trapper 50Cal Caplock Rifle",
     "suffuse.gun.m79.name": "M79 40mm Grenade Launcher",
@@ -106,9 +106,11 @@
     "suffuse.gun.tti2011.desc": "§dTier 4",
 
     "suffuse.gun.ks23m.desc": "§6Tier 5",
+    "suffuse.gun.qlu11.desc": "§6Tier 5\n§4[Black Market]", //chinese meme, may not work well in English
 
     "suffuse.gun.m79.desc": "§cTier 6",
     "suffuse.gun.pf98a.desc": "§cTier 6",
+    "suffuse.gun.aw50.desc": "§cTier 6",
 
     "suffuse.gun.qbz951.desc": "PLA standard issue rifle specialized for confined areas \nan urban warfare tool",
     "suffuse.gun.qbz951s.desc": "PLA standard issue rifle specialized for confined areas \nequipped with special tactical modifications",
@@ -127,7 +129,6 @@
     "suffuse.gun.aks74u.desc": "Short assault rifle introduced to the Soviet army in 1979 \ncompact and reliable bullet launcher",
     "suffuse.gun.ash12.desc": "A 12.7mm automatic rifle developed by KBP Design Bureau \nwhether it's enemies or hostages only one shot is needed",
     "suffuse.gun.viper2011.desc": "A high-end civilian competition handgun custom-made by Taran Tactical \nlike and subscribe to get a free red dot sight",
-    "suffuse.gun.aw50.desc": "An anti-material sniper rifle produced by Accuracy International \nlooks like a larger AWM?",
     "suffuse.gun.tt33.desc": "Standard bearer of the Soviet Union \nthough it seems to have killed more of its own than enemies",
     "suffuse.gun.trapper50cal.desc": "Hold on, let me load a round first...",
     "suffuse.gun.dvl10.desc": "A compact silent sniper rifle from the Russian Federation. \nA silent blade made of carbon fiber and titanium alloy.",
@@ -135,7 +136,6 @@
     "suffuse.gun.gepardpdw.desc": "A juvenile 74u. \nHonestly, I don't know how to describe this either~",
     "suffuse.gun.kapcdw.desc": "Compact and lightweight. \nThe dual gas chamber design greatly reduces recoil.",
     "suffuse.gun.mpdr.desc": "Its futuristic design inspired many sci-fi individual weapons. \nUnfortunately, the original gun never made it past prototyping.",
-    "suffuse.gun.qlu11.desc": "Your accuracy is a bit loose. \nBut your blast radius compensates for that.", //chinese meme, may not work well in English
     "suffuse.gun.svd.desc": "A sniper rifle named after its desinger \nthe world`s first rifle specifically made for snipers",
     "suffuse.gun.np762.desc": "A Chinese P226.\n§dCommissioned by 彭凡",
     "suffuse.gun.axmc.desc": "AI AXMC.338 Sniper Rifle,Comes with Suffuse Gunsmokde Deluxe Pack\n§dCommissioned by Mine_Cheese",

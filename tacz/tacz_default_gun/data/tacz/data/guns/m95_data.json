@@ -43,8 +43,8 @@
             "tactical": 4.07
         }
     },
-    "draw_time": 1.03,
-    "put_away_time": 1.87,
+    "draw_time": 0.9,
+    "put_away_time": 0.87,
     "aim_time": 0.5,
     "sprint_time": 0.2,
     "bolt_action_time": 1.43,

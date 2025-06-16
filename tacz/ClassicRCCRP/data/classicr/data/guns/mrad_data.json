@@ -1,7 +1,7 @@
 {
     "ammo": "tacz:50bmg",
-    "ammo_amount": 1,
-    "extended_mag_ammo_amount": [2, 2, 2],
+    "ammo_amount": 2,
+    "extended_mag_ammo_amount": [3, 3, 3],
     "bolt": "manual_action",
     "rpm": 151,
     "bullet": {
@@ -18,8 +18,8 @@
                 { "distance": "infinite", "damage": 35 }
             ]
         },
-        "speed": 450,
-        "gravity": 0.15,
+        "speed": 600,
+        "gravity": 0.001,
         "knockback": 1,
         "friction": 0.015,
         "ignite": false,
