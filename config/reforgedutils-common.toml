@@ -1,14 +1,14 @@
 
 [advanced_recycler]
 	#Format: item_id,output_id,amount
-	inputs = ["ae2:singularity,reforgedutils:t5defence,64", "pneumaticcraft:unassembled_pcb,reforgedutils:pcb_meld,8", "mekanism:block_steel,reforgedutils:steel_rod,3", "reforgedutils:electric_piston,reforgedutils:small_motor,2", "minecraft:glowstone,minecraft:glowstone_dust,16", "reforgedutils:broken_graphics_card,reforgedutils:graphics_card,1", "minecraft:copper_ingot,reforgedutils:copper_wiring,1", "reforgedutils:robotic_arm,reforgedutils:electric_piston,4", "reforgedutils:electric_pump,reforgedutils:actuator,2", "minecraft:coal_block,reforgedutils:carbon_mesh,1", "reforgedutils:emitter,reforgedutils:fuse,16"]
+	inputs = ["thermal:gunpowder_block,reforgedutils:industrial_gunpowder,1", "ae2:singularity,reforgedutils:t5defence,64", "pneumaticcraft:unassembled_pcb,reforgedutils:pcb_meld,8", "mekanism:block_steel,reforgedutils:steel_rod,3", "reforgedutils:electric_piston,reforgedutils:small_motor,2", "minecraft:glowstone,minecraft:glowstone_dust,16", "reforgedutils:broken_graphics_card,reforgedutils:graphics_card,1", "minecraft:copper_ingot,reforgedutils:copper_wiring,1", "reforgedutils:robotic_arm,reforgedutils:electric_piston,4", "reforgedutils:electric_pump,reforgedutils:actuator,2", "minecraft:coal_block,reforgedutils:carbon_mesh,1", "reforgedutils:emitter,reforgedutils:fuse,16"]
 	#Crafting speed for the advanced recycler (1200 = 1m, 20 = 1s)
 	#Range: 1 ~ 1200
 	crafting_speed = 100
 
 [recycler]
 	#Format: item_id,output_id,amount
-	inputs = ["minecraft:copper_ingot,reforgedutils:copper_wiring,1", "reforgedutils:robotic_arm,reforgedutils:electric_piston,4", "reforgedutils:electric_pump,reforgedutils:actuator,2", "minecraft:coal_block,reforgedutils:carbon_mesh,1", "reforgedutils:emitter,reforgedutils:fuse,16"]
+	inputs = ["thermal:gunpowder_block,reforgedutils:industrial_gunpowder,1", "minecraft:copper_ingot,reforgedutils:copper_wiring,1", "reforgedutils:robotic_arm,reforgedutils:electric_piston,4", "reforgedutils:electric_pump,reforgedutils:actuator,2", "minecraft:coal_block,reforgedutils:carbon_mesh,1", "reforgedutils:emitter,reforgedutils:fuse,16"]
 	#Crafting speed for the recycler (1200 = 1m, 20 = 1s)
 	#Range: 1 ~ 1200
 	crafting_speed = 100
